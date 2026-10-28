@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schema.openspace.host/v1/page.json",
+  "id": "pg_1jt90bt22f",
+  "title": "Home",
+  "slug": "",
+  "seo": {
+    "title": null,
+    "description": "os-e2e-w4-powerwith is being set up.",
+    "noindex": true
+  },
+  "sections": [
+    {
+      "id": "sec_k8g67t1ycz",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "align": "center",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        },
+        "minHeight": {
+          "d": "70vh"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_phwyzy988s",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "os-e2e-w4-powerwith"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_jp3m7zkjer",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "This site is being set up. Please check back soon."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
