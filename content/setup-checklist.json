@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source": "import",
+  "from": "GitHub Pages",
+  "items": [
+    {
+      "id": "forms-email",
+      "kind": "forms-email",
+      "title": "Get form messages by email",
+      "detail": "1 form(s) came across. Messages are kept in OpenSpace; choose where to get an email when someone writes.",
+      "where": [
+        "/preorder"
+      ],
+      "count": 1,
+      "status": "todo"
+    },
+    {
+      "id": "newsletter",
+      "kind": "newsletter",
+      "title": "Bring your newsletter subscribers",
+      "detail": "Sign-up forms came across, but subscribers stay with GitHub Pages. Export them there and import them here.",
+      "where": [
+        "/",
+        "/introduction",
+        "/preorder"
+      ],
+      "status": "todo"
+    }
+  ]
+}

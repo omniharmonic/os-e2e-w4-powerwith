@@ -1,0 +1,386 @@
+{
+  "id": "pg_jqz379qe93",
+  "title": "Introduction",
+  "slug": "introduction",
+  "seo": {
+    "title": "Read the Introduction to Power With, free",
+    "description": "The opening chapter of Power With by Sophia Life. A language for power that changes what you are able to see.",
+    "image": "media/2026/10/book-cover-front-ec7h.jpg"
+  },
+  "hidden": true,
+  "sections": [
+    {
+      "id": "sec_q1ay1ren4d",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            7,
+            5
+          ],
+          "m": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_271aqmf1vh",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "The strategies that kept you safe are still running.",
+            "level": "h1",
+            "size": "auto",
+            "eyebrow": "FREE FROM POWER WITH BY SOPHIA LIFE",
+            "subheading": "Read the Introduction to Power With, free."
+          },
+          "variant": "eyebrow-rule",
+          "column": 0
+        },
+        {
+          "id": "blk_hz4h1tzk6z",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In the opening pages, Sophia Life gives you a language for power that changes what you are able to see. In your marriage, in your family and in every team you lead."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "For leaders who have built a great deal and still sense something essential is out of reach. And for the people who love them."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "column": 0
+        },
+        {
+          "id": "blk_49cv900na8",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "INSIDE THE INTRODUCTION",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "bulletList",
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "The three terms that organize every relationship you hold. Power, power over and power with."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Why the qualities that drive achievement so often create distance at home."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "How defended patterns form, and why they come to feel like personality."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Why these patterns can change, and where change begins."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "column": 0
+        },
+        {
+          "id": "blk_4z5b7f2gkh",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Send me the Introduction.",
+            "level": "h2",
+            "size": "auto"
+          },
+          "variant": "plain",
+          "column": 1
+        },
+        {
+          "id": "blk_938bh33hss",
+          "type": "newsletter",
+          "v": 1,
+          "fields": {
+            "askName": false,
+            "placeholder": "you@example.com",
+            "buttonLabel": "SEND ME THE INTRODUCTION",
+            "successMessage": "Almost there — check your inbox to confirm your subscription."
+          },
+          "variant": "stacked",
+          "column": 1
+        },
+        {
+          "id": "blk_swzjmxrgb9",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Free. Arrives in your inbox today. Unsubscribe anytime.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "column": 1
+        }
+      ],
+      "anchor": "top"
+    },
+    {
+      "id": "sec_3x64fq65dp",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark-accent",
+        "background": {
+          "type": "color",
+          "color": "#4A1C18"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_qhwbe7463c",
+          "type": "quote",
+          "v": 1,
+          "fields": {
+            "quote": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What looks like confidence is often defense with good posture."
+                    }
+                  ]
+                }
+              ]
+            },
+            "attribution": "FROM POWER WITH"
+          }
+        }
+      ],
+      "anchor": "quote"
+    },
+    {
+      "id": "sec_d89cq22x9z",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_eq9k1e42x3",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "SOPHIA LIFE",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_w0j41gz4hz",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sophia Life is an author, coach and organizational consultant. Power With is the synthesis of more than a decade of study and lived practice."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "anchor": "author"
+    },
+    {
+      "id": "sec_2vvmrjd3nz",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_744xdv9a2z",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Begin with the first pages.",
+            "level": "h2",
+            "size": "auto"
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            },
+            "typography": {
+              "heading": "lead"
+            }
+          }
+        },
+        {
+          "id": "blk_3j0cd2798x",
+          "type": "newsletter",
+          "v": 1,
+          "fields": {
+            "askName": false,
+            "placeholder": "you@example.com",
+            "buttonLabel": "SEND ME THE INTRODUCTION",
+            "successMessage": "Almost there — check your inbox to confirm your subscription."
+          },
+          "variant": "stacked"
+        }
+      ],
+      "anchor": "begin"
+    }
+  ]
+}

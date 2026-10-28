@@ -1,0 +1,213 @@
+{
+  "id": "pg_k0k3c9amg6",
+  "title": "Thank you",
+  "slug": "thank-you",
+  "seo": {
+    "title": "The Introduction is on its way",
+    "noindex": true
+  },
+  "hidden": true,
+  "sections": [
+    {
+      "id": "sec_8kdrq0er6e",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_y5mdysb53r",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "The Introduction is on its way.",
+            "level": "h1",
+            "size": "auto"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_ckd7eyf1c1",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Look for an email from Sophia in the next few minutes. Move it to your primary inbox so her letters keep reaching you."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "anchor": "confirmation"
+    },
+    {
+      "id": "sec_8jf7n8198x",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "gap": "md",
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "brand",
+        "background": {
+          "type": "color",
+          "color": "#8E4A30"
+        },
+        "padding": {
+          "d": "2xl",
+          "m": "xl"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_s4z1gz4jnp",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "PUBLISHING JANUARY 2027",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_wg2cpxb2rn",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Pre-order now and receive the Orientation guide, a companion for your first reading."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_rk3r2bsbyv",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "PRE-ORDER AND CLAIM THE GUIDE",
+            "link": {
+              "type": "page",
+              "page": "pg_pccta3f6fk"
+            },
+            "role": "primary"
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ],
+      "preset": "cta/card-centered@1",
+      "anchor": "preorder-offer"
+    },
+    {
+      "id": "sec_8d69vcjaxe",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_p60g1r82q3",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Know someone who leads? Send them this page."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "anchor": "share"
+    }
+  ]
+}

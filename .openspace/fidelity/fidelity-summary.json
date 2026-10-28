@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "score": 90,
+  "before": 83,
+  "changes": [
+    "lead: 52px, 34px on phones",
+    "nav: 12px, 11px on phones, tracking 0.24em, uppercase",
+    "wordmark: 14px, 12px on phones, tracking 0.29em, uppercase",
+    "/privacy: 1 section(s) at the narrow width, as on the original",
+    "heading on dark sections #ede6d8, as on the original (7 of 9 sections)",
+    "text on dark-accent sections #ede6d8, as on the original (6 of 6 sections)",
+    "heading on dark-accent sections #ede6d8, as on the original (5 of 5 sections)",
+    "text on light-accent sections #0f0e0c, as on the original (2 of 2 sections)",
+    "text on brand sections #ede6d8, as on the original (3 of 3 sections)",
+    "heading on brand sections #ede6d8, as on the original (3 of 3 sections)",
+    "/: \"PRESS AND PODCASTS\" set at the eyebrow size, as on the original",
+    "/: \"Influence that keeps the relationship in\" set at the lead size, as on the original",
+    "/introduction: \"Begin with the first pages.\" set at the lead size, as on the original",
+    "/preorder: \"GIVE THIS BOOK\" set at the eyebrow size, as on the original",
+    "/privacy: \"Privacy policy\" set at the h2 size, as on the original",
+    "/: the image in section 1 narrower on phones, as on the original",
+    "/preorder: the image in section 1 narrower on phones, as on the original",
+    "/preorder: section 5 \"When will my copy arrive?\" recreated as a custom component",
+    "section padding on phones 90px"
+  ],
+  "withoutComponents": 90,
+  "withComponents": 90,
+  "pages": [
+    {
+      "path": "/",
+      "device": "desktop",
+      "score": 95,
+      "before": 88,
+      "image": "thumb-home-d.jpg",
+      "differs": [
+        "Columns",
+        "Text color",
+        "Height"
+      ]
+    },
+    {
+      "path": "/",
+      "device": "phone",
+      "score": 92,
+      "before": 85,
+      "image": "thumb-home-m.jpg",
+      "differs": [
+        "Columns",
+        "Section padding",
+        "Height"
+      ]
+    },
+    {
+      "path": "/introduction",
+      "device": "desktop",
+      "score": 91,
+      "before": 86,
+      "image": "thumb-introduction-d.jpg",
+      "differs": [
+        "Content width",
+        "Text"
+      ]
+    },
+    {
+      "path": "/introduction",
+      "device": "phone",
+      "score": 90,
+      "before": 84,
+      "image": "thumb-introduction-m.jpg",
+      "differs": [
+        "Text",
+        "Section padding",
+        "Height"
+      ]
+    },
+    {
+      "path": "/preorder",
+      "device": "desktop",
+      "score": 89,
+      "before": 82,
+      "image": "thumb-preorder-d.jpg",
+      "differs": [
+        "Heading 1 size",
+        "Heading",
+        "Image placement"
+      ]
+    },
+    {
+      "path": "/preorder",
+      "device": "phone",
+      "score": 89,
+      "before": 82,
+      "image": "thumb-preorder-m.jpg",
+      "differs": [
+        "Heading 1 size",
+        "Heading",
+        "Section padding"
+      ]
+    },
+    {
+      "path": "/privacy",
+      "device": "desktop",
+      "score": 89,
+      "before": 74,
+      "image": "thumb-privacy-d.jpg",
+      "differs": [
+        "Background",
+        "Section padding"
+      ]
+    },
+    {
+      "path": "/privacy",
+      "device": "phone",
+      "score": 90,
+      "before": 86,
+      "image": "thumb-privacy-m.jpg",
+      "differs": [
+        "Background",
+        "Section padding"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3903 @@
+{
+  "score": 90,
+  "exact": 90.46,
+  "pages": [
+    {
+      "path": "/",
+      "original": "https://life-culture.github.io/powerwith/",
+      "imported": "/ (local preview)",
+      "viewport": 1440,
+      "score": 95,
+      "structure": 98,
+      "exact": 94.53303679348966,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "96px",
+          "imported": "96px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "60px",
+          "imported": "60px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "21px",
+          "imported": "21px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0.24em, uppercase",
+          "imported": "0.24em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "14px",
+          "imported": "14px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.32em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "1200px",
+          "imported": "1200px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "112px",
+          "imported": "112px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Power With",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 96px",
+              "imported": "Cormorant Garamond 96px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "A BOOK BY SOPHIA LIFE + rule",
+              "imported": "A BOOK BY SOPHIA LIFE + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "right, 22% wide",
+              "imported": "right, 20% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.67:1",
+              "imported": "0.67:1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "825px",
+              "imported": "1103px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 1,
+          "heading": "The drive that builds companies can dismantle marriages.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#4a1c18",
+              "imported": "#4a1c18",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE PATTERN + rule",
+              "imported": "THE PATTERN + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "824px",
+              "imported": "864px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 2,
+          "heading": "A language for power.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 64px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE FRAMEWORK + rule",
+              "imported": "THE FRAMEWORK + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "4",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1017px",
+              "imported": "974px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 3,
+          "heading": "Power and closeness, held together.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "WHAT THIS BOOK GIVES YOU + rule",
+              "imported": "WHAT THIS BOOK GIVES YOU + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1278px",
+              "imported": "1227px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 4,
+          "heading": "Ten capacities make power with possible.",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3a3531",
+              "imported": "#3a3531",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "5",
+              "imported": "5",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE TEN PRINCIPLES + rule",
+              "imported": "THE TEN PRINCIPLES + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1014px",
+              "imported": "984px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 5,
+          "heading": "Read the first pages tonight.",
+          "importedIndex": 5,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#8e4a30",
+              "imported": "#8e4a30",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FREE · THE INTRODUCTION + rule",
+              "imported": "FREE · THE INTRODUCTION + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "537px",
+              "imported": "476px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 6,
+          "heading": "Success is measured in relationship.",
+          "importedIndex": 6,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "A NEW MEASURE + rule",
+              "imported": "A NEW MEASURE + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "972px",
+              "imported": "703px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 7,
+          "heading": "The authority people follow by choice.",
+          "importedIndex": 7,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3c402f",
+              "imported": "#3c402f",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FOR LEADERS + rule",
+              "imported": "FOR LEADERS + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "654px",
+              "imported": "606px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 8,
+          "heading": "Sophia Life",
+          "importedIndex": 8,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "2",
+              "ok": false,
+              "fix": "Fewer columns: merge them into one stack column.",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE AUTHOR + rule",
+              "imported": "THE AUTHOR + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "947px",
+              "imported": "779px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 82
+        },
+        {
+          "index": 9,
+          "heading": "Bring power with into how your team leads.",
+          "importedIndex": 9,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3a3531",
+              "imported": "#3a3531",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FOR ORGANIZATIONS + rule",
+              "imported": "FOR ORGANIZATIONS + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "753px",
+              "imported": "604px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 10,
+          "heading": "PRESS AND PODCASTS",
+          "importedIndex": 10,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Montserrat 12px",
+              "imported": "Montserrat 12px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#c2b8a6",
+              "imported": "#f6f1ee",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "515px",
+              "imported": "358px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 80
+        },
+        {
+          "index": 11,
+          "heading": "Influence that keeps the relationship intact.",
+          "importedIndex": 11,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#8e4a30",
+              "imported": "#8e4a30",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 50px italic",
+              "imported": "Cormorant Garamond 52px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "540px",
+              "imported": "500px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        }
+      ],
+      "visual": 0.854
+    },
+    {
+      "path": "/",
+      "original": "https://life-culture.github.io/powerwith/",
+      "imported": "/ (local preview)",
+      "viewport": 390,
+      "score": 92,
+      "structure": 96,
+      "exact": 92.37508512981734,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "58px",
+          "imported": "55.9px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "40px",
+          "imported": "40.6px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "19px",
+          "imported": "19.1px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "11px",
+          "imported": "11px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "12px",
+          "imported": "12.1px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.26em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "56px",
+          "imported": "90.5px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 56",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Power With",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 58px",
+              "imported": "Cormorant Garamond 55.9px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "A BOOK BY SOPHIA LIFE + rule",
+              "imported": "A BOOK BY SOPHIA LIFE + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 51% wide",
+              "imported": "center, 57% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.67:1",
+              "imported": "0.67:1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1189px",
+              "imported": "1513px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 1,
+          "heading": "The drive that builds companies can dismantle marriages.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#4a1c18",
+              "imported": "#4a1c18",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE PATTERN + rule",
+              "imported": "THE PATTERN + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "919px",
+              "imported": "1141px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 2,
+          "heading": "A language for power.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 44px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE FRAMEWORK + rule",
+              "imported": "THE FRAMEWORK + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "4",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1725px",
+              "imported": "1508px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 3,
+          "heading": "Power and closeness, held together.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "WHAT THIS BOOK GIVES YOU + rule",
+              "imported": "WHAT THIS BOOK GIVES YOU + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1766px",
+              "imported": "1795px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 4,
+          "heading": "Ten capacities make power with possible.",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3a3531",
+              "imported": "#3a3531",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE TEN PRINCIPLES + rule",
+              "imported": "THE TEN PRINCIPLES + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1492px",
+              "imported": "2197px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 73
+        },
+        {
+          "index": 5,
+          "heading": "Read the first pages tonight.",
+          "importedIndex": 5,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#8e4a30",
+              "imported": "#8e4a30",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FREE · THE INTRODUCTION + rule",
+              "imported": "FREE · THE INTRODUCTION + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "770px",
+              "imported": "713px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 6,
+          "heading": "Success is measured in relationship.",
+          "importedIndex": 6,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "A NEW MEASURE + rule",
+              "imported": "A NEW MEASURE + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1006px",
+              "imported": "796px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 7,
+          "heading": "The authority people follow by choice.",
+          "importedIndex": 7,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3c402f",
+              "imported": "#3c402f",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FOR LEADERS + rule",
+              "imported": "FOR LEADERS + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "762px",
+              "imported": "739px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 8,
+          "heading": "Sophia Life",
+          "importedIndex": 8,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "THE AUTHOR + rule",
+              "imported": "THE AUTHOR + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1563px",
+              "imported": "982px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 91
+        },
+        {
+          "index": 9,
+          "heading": "Bring power with into how your team leads.",
+          "importedIndex": 9,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3a3531",
+              "imported": "#3a3531",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FOR ORGANIZATIONS + rule",
+              "imported": "FOR ORGANIZATIONS + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "982px",
+              "imported": "871px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 10,
+          "heading": "PRESS AND PODCASTS",
+          "importedIndex": 10,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Montserrat 11px",
+              "imported": "Montserrat 11px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#c2b8a6",
+              "imported": "#f6f1ee",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "730px",
+              "imported": "407px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 80
+        },
+        {
+          "index": 11,
+          "heading": "Influence that keeps the relationship intact.",
+          "importedIndex": 11,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#8e4a30",
+              "imported": "#8e4a30",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 36px italic",
+              "imported": "Cormorant Garamond 34.5px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "514px",
+              "imported": "460px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        }
+      ],
+      "visual": 0.825
+    },
+    {
+      "path": "/introduction",
+      "original": "https://life-culture.github.io/powerwith/introduction/",
+      "imported": "/introduction (local preview)",
+      "viewport": 1440,
+      "score": 91,
+      "structure": 93,
+      "exact": 90.85286301691718,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "76px",
+          "imported": "76px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "21px",
+          "imported": "21px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "52px",
+          "imported": "52px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "14px",
+          "imported": "14px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.32em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "604px",
+          "imported": "1200px",
+          "ok": false,
+          "fix": "choices.layout.contentWidth = 604",
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "148px",
+          "imported": "112px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "The strategies that kept you safe are still running.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 76px",
+              "imported": "Cormorant Garamond 76px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 20px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FREE FROM POWER WITH BY SOPHIA LIFE + rule",
+              "imported": "FREE FROM POWER WITH BY SOPHIA LIFE + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "941px",
+              "imported": "1079px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 1,
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#4a1c18",
+              "imported": "#4a1c18",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Cormorant Garamond 52px",
+              "imported": "Cormorant Garamond 34px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "380px",
+              "imported": "365px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 75
+        },
+        {
+          "index": 2,
+          "heading": "SOPHIA LIFE",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "464px",
+              "imported": "338px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 3,
+          "heading": "Begin with the first pages.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 50px",
+              "imported": "Cormorant Garamond 52px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "461px",
+              "imported": "450px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        }
+      ],
+      "visual": 0.838
+    },
+    {
+      "path": "/introduction",
+      "original": "https://life-culture.github.io/powerwith/introduction/",
+      "imported": "/introduction (local preview)",
+      "viewport": 390,
+      "score": 90,
+      "structure": 93,
+      "exact": 89.61069711157305,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "44px",
+          "imported": "41.9px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "19px",
+          "imported": "19.1px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "34px",
+          "imported": "34.5px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "11px",
+          "imported": "11px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "12px",
+          "imported": "12.1px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.26em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "56px",
+          "imported": "90.5px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 56",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "The strategies that kept you safe are still running.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 44px",
+              "imported": "Cormorant Garamond 41.9px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 20px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "FREE FROM POWER WITH BY SOPHIA LIFE + rule",
+              "imported": "FREE FROM POWER WITH BY SOPHIA LIFE + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1517px",
+              "imported": "1375px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 1,
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#4a1c18",
+              "imported": "#4a1c18",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Cormorant Garamond 34px",
+              "imported": "Cormorant Garamond 27.2px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "303px",
+              "imported": "326px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 75
+        },
+        {
+          "index": 2,
+          "heading": "SOPHIA LIFE",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "528px",
+              "imported": "339px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 88
+        },
+        {
+          "index": 3,
+          "heading": "Begin with the first pages.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 36px",
+              "imported": "Cormorant Garamond 34.5px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "466px",
+              "imported": "373px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        }
+      ],
+      "visual": 0.795
+    },
+    {
+      "path": "/preorder",
+      "original": "https://life-culture.github.io/powerwith/preorder/",
+      "imported": "/preorder (local preview)",
+      "viewport": 1440,
+      "score": 89,
+      "structure": 90,
+      "exact": 88.81053860685651,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "76px",
+          "imported": "96px",
+          "ok": false,
+          "fix": "choices.typography.scale.h1.size = 76",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "30px",
+          "imported": "30px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "21px",
+          "imported": "21px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "30px",
+          "imported": "30px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "14px",
+          "imported": "14px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.32em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "1200px",
+          "imported": "1200px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "112px",
+          "imported": "112px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Power and closeness, held together.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 76px",
+              "imported": "Cormorant Garamond 96px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRE-ORDER · PUBLISHING JANUARY 2027 + rule",
+              "imported": "PRE-ORDER · PUBLISHING JANUARY 2027 + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 21% wide",
+              "imported": "right, 27% wide",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.67:1",
+              "imported": "0.67:1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1008px",
+              "imported": "944px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        },
+        {
+          "index": 1,
+          "heading": "Hear first when pre-orders open.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3a3531",
+              "imported": "#3a3531",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRE-ORDERS OPEN SOON + rule",
+              "imported": "PRE-ORDERS OPEN SOON + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "518px",
+              "imported": "509px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 2,
+          "heading": "Pre-order and receive the Orientation.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#8e4a30",
+              "imported": "#8e4a30",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 20px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRE-ORDER GIFT + rule",
+              "imported": "PRE-ORDER GIFT + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "869px",
+              "imported": "794px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 3,
+          "heading": "GIVE THIS BOOK",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Montserrat 12px",
+              "imported": "Montserrat 12px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#c2b8a6",
+              "imported": "#f6f1ee",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "477px",
+              "imported": "397px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 90
+        },
+        {
+          "index": 4,
+          "heading": "When will my copy arrive?",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 30px",
+              "imported": "Cormorant Garamond 30px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#c2b8a6",
+              "imported": "#aaa39e",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "QUESTIONS + rule",
+              "imported": "QUESTIONS",
+              "ok": false,
+              "fix": "Heading block variant \"eyebrow-rule\".",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "650px",
+              "imported": "654px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 82
+        }
+      ],
+      "visual": 0.849
+    },
+    {
+      "path": "/preorder",
+      "original": "https://life-culture.github.io/powerwith/preorder/",
+      "imported": "/preorder (local preview)",
+      "viewport": 390,
+      "score": 89,
+      "structure": 90,
+      "exact": 88.7677361766682,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "44px",
+          "imported": "55.9px",
+          "ok": false,
+          "fix": "choices.typography.scale.h1.sizeMobile = 44",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "23px",
+          "imported": "23.2px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "19px",
+          "imported": "19.1px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "23px",
+          "imported": "24px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "11px",
+          "imported": "11px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "12px",
+          "imported": "12.1px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.26em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "56px",
+          "imported": "90.5px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 56",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Power and closeness, held together.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 44px",
+              "imported": "Cormorant Garamond 55.9px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRE-ORDER · PUBLISHING JANUARY 2027 + rule",
+              "imported": "PRE-ORDER · PUBLISHING JANUARY 2027 + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 51% wide",
+              "imported": "center, 57% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.67:1",
+              "imported": "0.67:1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1393px",
+              "imported": "1327px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 85
+        },
+        {
+          "index": 1,
+          "heading": "Hear first when pre-orders open.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#3a3531",
+              "imported": "#3a3531",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRE-ORDERS OPEN SOON + rule",
+              "imported": "PRE-ORDERS OPEN SOON + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "719px",
+              "imported": "656px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 2,
+          "heading": "Pre-order and receive the Orientation.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#8e4a30",
+              "imported": "#8e4a30",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 20px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#ede6d8",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRE-ORDER GIFT + rule",
+              "imported": "PRE-ORDER GIFT + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1382px",
+              "imported": "1402px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 100
+        },
+        {
+          "index": 3,
+          "heading": "GIVE THIS BOOK",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Montserrat 11px",
+              "imported": "Montserrat 11px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#c2b8a6",
+              "imported": "#f6f1ee",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "635px",
+              "imported": "487px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 90
+        },
+        {
+          "index": 4,
+          "heading": "When will my copy arrive?",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#0f0e0c",
+              "imported": "#0f0e0c",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 23px",
+              "imported": "Cormorant Garamond 24px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 17px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#c2b8a6",
+              "imported": "#aaa39e",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "QUESTIONS + rule",
+              "imported": "QUESTIONS",
+              "ok": false,
+              "fix": "Heading block variant \"eyebrow-rule\".",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "716px",
+              "imported": "656px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 82
+        }
+      ],
+      "visual": 0.855
+    },
+    {
+      "path": "/privacy",
+      "original": "https://life-culture.github.io/powerwith/privacy/",
+      "imported": "/privacy (local preview)",
+      "viewport": 1440,
+      "score": 89,
+      "structure": 92,
+      "exact": 88.920677154871,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "60px",
+          "imported": "60px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "21px",
+          "imported": "21px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0.22em, uppercase",
+          "imported": "0.22em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "12px",
+          "imported": "12px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0.24em, uppercase",
+          "imported": "0.24em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "14px",
+          "imported": "14px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.32em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "1000px",
+          "imported": "1000px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "273px",
+          "imported": "112px",
+          "ok": false,
+          "fix": "choices.layout.sectionPadding = 273",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Privacy policy",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ede6d8",
+              "imported": "#0f0e0c",
+              "ok": false,
+              "fix": "Give the section its own background color (style.background = { type: \"color\", color: \"#ede6d8\" }).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 60px",
+              "imported": "Cormorant Garamond 60px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 21px",
+              "imported": "EB Garamond 21px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRIVACY + rule",
+              "imported": "PRIVACY + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "699px",
+              "imported": "523px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 82
+        }
+      ],
+      "visual": 0.807
+    },
+    {
+      "path": "/privacy",
+      "original": "https://life-culture.github.io/powerwith/privacy/",
+      "imported": "/privacy (local preview)",
+      "viewport": 390,
+      "score": 90,
+      "structure": 90,
+      "exact": 89.82555817594567,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Cormorant Garamond",
+          "imported": "Cormorant Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "40px",
+          "imported": "40.6px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "EB Garamond",
+          "imported": "EB Garamond",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "19px",
+          "imported": "19.1px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Montserrat",
+          "imported": "Montserrat",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows size",
+          "original": "11px",
+          "imported": "11px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Eyebrows letter spacing and case",
+          "original": "0.3em, uppercase",
+          "imported": "0.3em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "12px",
+          "imported": "12.1px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "0.26em, uppercase",
+          "imported": "0.29em, uppercase",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "217px",
+          "imported": "91px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 217",
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Privacy policy",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ede6d8",
+              "imported": "#0f0e0c",
+              "ok": false,
+              "fix": "Give the section its own background color (style.background = { type: \"color\", color: \"#ede6d8\" }).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Cormorant Garamond 40px",
+              "imported": "Cormorant Garamond 40.6px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "EB Garamond 19px",
+              "imported": "EB Garamond 19.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#ede6d8",
+              "imported": "#f6f1ee",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Eyebrow and rule",
+              "original": "PRIVACY + rule",
+              "imported": "PRIVACY + rule",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "663px",
+              "imported": "539px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 82
+        }
+      ],
+      "visual": 0.903
+    }
+  ]
+}

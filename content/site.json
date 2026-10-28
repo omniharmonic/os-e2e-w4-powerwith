@@ -1,39 +1,81 @@
 {
-  "$schema": "https://schema.openspace.host/v1/site.json",
-  "title": "os-e2e-w4-powerwith",
+  "title": "Power With",
+  "tagline": "A book for leaders who want strength and closeness held together.",
+  "favicon": "media/2026/10/favicon-ee4d.svg",
   "nav": [
     {
       "type": "page",
-      "page": "pg_1jt90bt22f",
-      "label": "Home"
+      "page": "pg_eq7h19rjgt",
+      "label": "THE FRAMEWORK",
+      "anchor": "framework"
+    },
+    {
+      "type": "page",
+      "page": "pg_eq7h19rjgt",
+      "label": "THE PRINCIPLES",
+      "anchor": "principles"
+    },
+    {
+      "type": "page",
+      "page": "pg_eq7h19rjgt",
+      "label": "THE AUTHOR",
+      "anchor": "author"
+    },
+    {
+      "type": "page",
+      "page": "pg_eq7h19rjgt",
+      "label": "FOR ORGANIZATIONS",
+      "anchor": "organizations"
+    },
+    {
+      "type": "page",
+      "page": "pg_pccta3f6fk",
+      "label": "PRE-ORDER"
+    },
+    {
+      "type": "button",
+      "label": "GET THE INTRODUCTION",
+      "link": {
+        "type": "page",
+        "page": "pg_eq7h19rjgt",
+        "anchor": "introduction"
+      },
+      "style": "primary"
     }
   ],
   "header": {
     "variant": "classic-left",
     "sticky": false,
     "transparentOnHero": false,
-    "mobileMenu": "slide"
+    "mobileMenu": "fullscreen",
+    "colorTheme": "dark"
   },
   "footer": {
-    "id": "sec_4jsa7hq2gz",
+    "id": "sec_bnt8jt0x8w",
     "layout": {
       "mode": "stack",
       "columns": {
         "d": [
+          4,
+          4,
+          4
+        ],
+        "m": [
           12
         ]
       },
       "align": "center"
     },
     "style": {
-      "colorTheme": "light",
-      "padding": {
-        "d": "md"
+      "colorTheme": "dark",
+      "background": {
+        "type": "color",
+        "color": "#0f0e0c"
       }
     },
     "blocks": [
       {
-        "id": "blk_gde9w3vkyg",
+        "id": "blk_vwbppx615q",
         "type": "text",
         "v": 1,
         "fields": {
@@ -45,15 +87,144 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "os-e2e-w4-powerwith"
+                    "text": "POWER WITH · SOPHIA LIFE"
                   }
-                ]
+                ],
+                "attrs": {
+                  "preset": "eyebrow"
+                }
               }
             ]
           }
+        },
+        "column": 0,
+        "style": {
+          "align": {
+            "d": "start",
+            "m": "start"
+          }
+        }
+      },
+      {
+        "id": "blk_37h6zza0es",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "INSTAGRAM",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.instagram.com/sophia.life.wisdom"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "PRE-ORDER",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/preorder/"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "PRIVACY",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/privacy/"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "attrs": {
+                  "preset": "eyebrow"
+                }
+              }
+            ]
+          }
+        },
+        "column": 1,
+        "style": {
+          "align": {
+            "d": "center",
+            "m": "start"
+          }
+        }
+      },
+      {
+        "id": "blk_n00wq6g1nq",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "© 2026 SOPHIA LIFE"
+                  }
+                ],
+                "attrs": {
+                  "preset": "eyebrow"
+                }
+              }
+            ]
+          }
+        },
+        "column": 2,
+        "style": {
+          "align": {
+            "d": "end",
+            "m": "start"
+          }
         }
       }
-    ]
+    ],
+    "label": "Footer"
   },
-  "locale": "en"
+  "social": [
+    {
+      "network": "instagram",
+      "url": "https://www.instagram.com/sophia.life.wisdom"
+    }
+  ],
+  "seo": {
+    "titleTemplate": "%s — Power With",
+    "description": "A book for leaders who want strength and closeness held together.",
+    "image": "media/2026/10/book-cover-front-ec7h.jpg"
+  },
+  "locale": "en-US",
+  "integrations": {
+    "analytics": false,
+    "bookingUrl": null,
+    "stripeConnected": false
+  }
 }

@@ -14,7 +14,7 @@
   },
   "features": {
     "forms": true,
-    "newsletter": false,
+    "newsletter": true,
     "analytics": false,
     "search": true
   }

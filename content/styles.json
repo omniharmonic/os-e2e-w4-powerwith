@@ -1,17 +1,170 @@
 {
-  "$schema": "https://schema.openspace.host/v1/styles.json",
   "choices": {
     "palette": {
-      "brand": "oklch(0.45 0.05 250)",
+      "brand": "#8E4A30",
       "neutral": "warm",
       "contrast": "standard",
-      "source": "curated"
+      "source": "brand"
     },
-    "pairing": "fraunces-hanken",
+    "pairing": "cormorant-jost",
     "density": "comfortable",
-    "shape": "soft",
+    "shape": "sharp",
     "buttons": "solid",
     "motion": "subtle",
-    "imageTreatment": "none"
+    "imageTreatment": "none",
+    "typography": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "category": "serif",
+        "weights": [
+          500
+        ],
+        "italic": true
+      },
+      "body": {
+        "family": "EB Garamond",
+        "category": "serif",
+        "weights": [
+          400
+        ],
+        "italic": true
+      },
+      "label": {
+        "family": "Montserrat",
+        "category": "sans-serif",
+        "weights": [
+          300,
+          400
+        ]
+      },
+      "scale": {
+        "h1": {
+          "size": 76,
+          "sizeMobile": 44,
+          "lineHeight": 1.02,
+          "font": "heading",
+          "weight": 500
+        },
+        "h2": {
+          "size": 60,
+          "sizeMobile": 40,
+          "lineHeight": 1.08,
+          "font": "heading",
+          "weight": 500
+        },
+        "body": {
+          "size": 21,
+          "sizeMobile": 19,
+          "lineHeight": 1.5,
+          "font": "body"
+        },
+        "h3": {
+          "size": 34,
+          "sizeMobile": 27,
+          "lineHeight": 1.2,
+          "font": "heading",
+          "weight": 500
+        },
+        "h4": {
+          "size": 30,
+          "sizeMobile": 23,
+          "lineHeight": 1.25,
+          "font": "heading",
+          "weight": 500
+        },
+        "display": {
+          "size": 96,
+          "sizeMobile": 58,
+          "lineHeight": 1,
+          "font": "heading",
+          "weight": 500
+        },
+        "small": {
+          "size": 17,
+          "sizeMobile": 16,
+          "lineHeight": 1.45,
+          "font": "body"
+        },
+        "eyebrow": {
+          "font": "label",
+          "size": 12,
+          "sizeMobile": 11,
+          "letterSpacing": 0.3,
+          "case": "uppercase"
+        },
+        "button": {
+          "font": "label",
+          "size": 12,
+          "sizeMobile": 12,
+          "letterSpacing": 0.22,
+          "case": "uppercase"
+        },
+        "nav": {
+          "font": "label",
+          "size": 12,
+          "sizeMobile": 11,
+          "letterSpacing": 0.24,
+          "case": "uppercase"
+        },
+        "wordmark": {
+          "font": "label",
+          "size": 14,
+          "sizeMobile": 12,
+          "letterSpacing": 0.29,
+          "case": "uppercase"
+        },
+        "lead": {
+          "size": 52,
+          "sizeMobile": 34,
+          "lineHeight": 1.25,
+          "font": "heading"
+        }
+      },
+      "eyebrowColor": "muted"
+    },
+    "layout": {
+      "contentWidth": 1200,
+      "sectionPadding": 112,
+      "sectionPaddingMobile": 90,
+      "gutterMobile": 20,
+      "gutter": 32,
+      "narrowWidth": 1000
+    }
+  },
+  "overrides": {
+    "color": {
+      "dark": {
+        "heading": {
+          "$type": "color",
+          "$value": "#ede6d8"
+        }
+      },
+      "dark-accent": {
+        "text": {
+          "$type": "color",
+          "$value": "#ede6d8"
+        },
+        "heading": {
+          "$type": "color",
+          "$value": "#ede6d8"
+        }
+      },
+      "light-accent": {
+        "text": {
+          "$type": "color",
+          "$value": "#0f0e0c"
+        }
+      },
+      "brand": {
+        "text": {
+          "$type": "color",
+          "$value": "#ede6d8"
+        },
+        "heading": {
+          "$type": "color",
+          "$value": "#ede6d8"
+        }
+      }
+    }
   }
 }

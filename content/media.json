@@ -1,0 +1,227 @@
+{
+  "media/2026/10/book-cover-front-ec7h.jpg": {
+    "id": "med_ec7hrrg7y2",
+    "path": "media/2026/10/book-cover-front-ec7h.jpg",
+    "kind": "image",
+    "mime": "image/jpeg",
+    "bytes": 178489,
+    "width": 800,
+    "height": 1200,
+    "alt": "The cover of Power With by Sophia Life. Black, with the title in widely spaced capitals above two overlapping circles.",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "book-cover-front.jpg",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/circle-1stb.png": {
+    "id": "med_1stb4v71r6",
+    "path": "media/2026/10/circle-1stb.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 1558,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "circle.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/mark-power-over-62y5.png": {
+    "id": "med_62y5qnv209",
+    "path": "media/2026/10/mark-power-over-62y5.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 1785,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "mark-power-over.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/mark-power-with-6zfm.png": {
+    "id": "med_6zfmdjqe6d",
+    "path": "media/2026/10/mark-power-with-6zfm.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 1751,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "mark-power-with.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-01-regulation-tpg6.png": {
+    "id": "med_tpg6yx116y",
+    "path": "media/2026/10/principle-01-regulation-tpg6.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 1023,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-01-regulation.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-02-empathy-eexf.png": {
+    "id": "med_eexfwm54fa",
+    "path": "media/2026/10/principle-02-empathy-eexf.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2092,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-02-empathy.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-03-listening-190j.png": {
+    "id": "med_190jh3j2vc",
+    "path": "media/2026/10/principle-03-listening-190j.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2003,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-03-listening.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-04-humility-g8dq.png": {
+    "id": "med_g8dq1m5xfa",
+    "path": "media/2026/10/principle-04-humility-g8dq.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 1381,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-04-humility.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-05-understanding-nfs1.png": {
+    "id": "med_nfs1v0xpc2",
+    "path": "media/2026/10/principle-05-understanding-nfs1.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2192,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-05-understanding.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-06-relationality-gspx.png": {
+    "id": "med_gspxvbt2rm",
+    "path": "media/2026/10/principle-06-relationality-gspx.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2423,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-06-relationality.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-07-integrity-fajj.png": {
+    "id": "med_fajjrb1n53",
+    "path": "media/2026/10/principle-07-integrity-fajj.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2213,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-07-integrity.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-08-trust-bbzt.png": {
+    "id": "med_bbztw8typd",
+    "path": "media/2026/10/principle-08-trust-bbzt.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2587,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-08-trust.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-09-responsibility-jjw7.png": {
+    "id": "med_jjw7jrkmyt",
+    "path": "media/2026/10/principle-09-responsibility-jjw7.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 3306,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-09-responsibility.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/principle-10-repair-tdhq.png": {
+    "id": "med_tdhq9j38ya",
+    "path": "media/2026/10/principle-10-repair-tdhq.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 2534,
+    "width": 576,
+    "height": 96,
+    "alt": "",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "originalName": "principle-10-repair.png",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  },
+  "media/2026/10/favicon-ee4d.svg": {
+    "id": "med_ee4dj4gs6d",
+    "path": "media/2026/10/favicon-ee4d.svg",
+    "kind": "image",
+    "mime": "image/svg+xml",
+    "bytes": 232,
+    "width": 64,
+    "height": 64,
+    "alt": "",
+    "originalName": "favicon.svg",
+    "createdAt": "2026-10-28T01:47:33.306Z",
+    "credit": {
+      "source": "Imported from GitHub Pages"
+    }
+  }
+}

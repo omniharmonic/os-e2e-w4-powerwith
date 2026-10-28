@@ -1,0 +1,75 @@
+{
+  "id": "pg_tzprh9g389",
+  "title": "Privacy",
+  "slug": "privacy",
+  "seo": {
+    "description": "How Power With and Sophia Life handle the information you share."
+  },
+  "hidden": true,
+  "sections": [
+    {
+      "id": "sec_cfyf080qbt",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_6g24msnnrc",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Privacy policy",
+            "level": "h1",
+            "size": "h2",
+            "eyebrow": "PRIVACY"
+          },
+          "variant": "eyebrow-rule"
+        },
+        {
+          "id": "blk_ev6xbwvxz0",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "[Privacy policy text to be supplied by Sophia before launch.]"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "This site collects your first name and email address when you ask for the Introduction or claim the Orientation. Your details go to the email platform Sophia uses to send her letters. You can unsubscribe from any email at any time."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "anchor": "privacy"
+    }
+  ]
+}
