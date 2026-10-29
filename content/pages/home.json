@@ -1,1811 +1,1811 @@
 {
-  "id": "pg_eq7h19rjgt",
-  "title": "Home",
-  "slug": "",
-  "seo": {
-    "title": "Power With · A book by Sophia Life",
-    "description": "Power With: The Relational Foundation of Lasting Influence. A book for leaders who want strength and closeness held together. Read the Introduction free.",
-    "image": "media/2026/10/book-cover-front-ec7h.jpg"
-  },
-  "hidden": true,
-  "sections": [
-    {
-      "id": "sec_p3anwyc17w",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            9,
-            3
-          ],
-          "m": [
-            12
-          ]
-        },
-        "align": "center"
-      },
-      "style": {
-        "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_ktha8z6amt",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Power With",
-            "level": "h1",
-            "size": "display",
-            "eyebrow": "A BOOK BY SOPHIA LIFE",
-            "subheading": "The Relational Foundation of Lasting Influence"
-          },
-          "variant": "eyebrow-rule",
-          "column": 0
-        },
-        {
-          "id": "blk_tcey955s4k",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The strategies that build success often erode the relationships success depends on."
+     "id": "pg_eq7h19rjgt",
+     "title": "Home",
+     "slug": "",
+     "seo": {
+          "title": "Power With \u00b7 A book by Sophia Life",
+          "description": "Power With: The Relational Foundation of Lasting Influence. A book for leaders who want strength and closeness held together. Read the Introduction free.",
+          "image": "media/2026/10/book-cover-front-ec7h.jpg"
+     },
+     "hidden": true,
+     "sections": [
+          {
+               "id": "sec_p3anwyc17w",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              9,
+                              3
+                         ],
+                         "m": [
+                              12
+                         ]
+                    },
+                    "align": "center"
+               },
+               "style": {
+                    "colorTheme": "dark",
+                    "background": {
+                         "type": "color",
+                         "color": "#0F0E0C"
                     }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
+               },
+               "blocks": [
                     {
-                      "type": "text",
-                      "text": "Power With is for leaders who have built a great deal and still sense that something essential remains out of reach. It shows you how to hold your influence so the people closest to you grow stronger in your presence. At home. At work. In every room you enter."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 0
-        },
-        {
-          "id": "blk_ay2thycetx",
-          "type": "newsletter",
-          "v": 1,
-          "fields": {
-            "askName": false,
-            "placeholder": "you@example.com",
-            "buttonLabel": "SEND ME THE INTRODUCTION",
-            "successMessage": "Almost there — check your inbox to confirm your subscription."
-          },
-          "variant": "stacked",
-          "column": 0
-        },
-        {
-          "id": "blk_wqfy4exvyf",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The opening chapter of Power With, free in your inbox today. Publishing January 2027.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 0
-        },
-        {
-          "id": "blk_7ygbew2zvw",
-          "type": "image",
-          "v": 1,
-          "fields": {
-            "image": {
-              "src": "media/2026/10/book-cover-front-ec7h.jpg",
-              "alt": "The cover of Power With by Sophia Life. Black, with the title in widely spaced capitals above two overlapping circles.",
-              "width": 800,
-              "height": 1200,
-              "mediaId": "med_ec7hrrg7y2"
-            },
-            "aspect": "original",
-            "lightbox": false
-          },
-          "column": 1,
-          "style": {
-            "padding": {
-              "d": "none",
-              "m": "2xl"
-            }
-          }
-        }
-      ],
-      "anchor": "top"
-    },
-    {
-      "id": "sec_z6zfy4gwzt",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark-accent",
-        "background": {
-          "type": "color",
-          "color": "#4A1C18"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_mfkb0gwzde",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "The drive that builds companies can dismantle marriages.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "THE PATTERN",
-            "subheading": "The control that commands respect can silence the people who love you most. The armor that makes you formidable can make you unreachable."
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_9abhetj7kb",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Most people treat their success and their relational struggles as separate problems. The career is going well. The marriage is hard. Both run on the same operating system."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The strategies that win in competition are specific. Control, self-sufficiency, the refusal to be affected, the need to stay ahead. At home and on a team, those same strategies create distance. The cost builds so slowly that most people see it only once it runs deep."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "variant": "columns"
-        },
-        {
-          "id": "blk_04nhhr1b90",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Power With makes the pattern visible while it can still change.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "pattern"
-    },
-    {
-      "id": "sec_nsmtqebyjp",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light-accent",
-        "background": {
-          "type": "color",
-          "color": "#EDE6D8"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_wzv9ex1may",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "A language for power.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "THE FRAMEWORK"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_asmp5rzbg6",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Three terms carry the whole book. They are simple to define. Once you hold them, you see every relationship, every team and every room differently."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_vvn5bbf4qf",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "POWER",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Power is the capacity to shape outcomes.",
-                          "marks": [
-                            {
-                              "type": "italic"
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_ktha8z6amt",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Power With",
+                              "level": "h1",
+                              "size": "display",
+                              "eyebrow": "A BOOK BY SOPHIA LIFE",
+                              "subheading": "The Relational Foundation of Lasting Influence"
+                         },
+                         "variant": "eyebrow-rule",
+                         "column": 0
                     },
                     {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Every conversation shapes one. Every meeting, every dinner and every decision shapes the trust and safety of the people around you. You hold more power than you may realize."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/circle-1stb.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_1stb4v71r6"
-                }
-              },
-              {
-                "heading": "POWER OVER",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Power over is the use of influence to control.",
-                          "marks": [
-                            {
-                              "type": "italic"
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_tcey955s4k",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The strategies that build success often erode the relationships success depends on."
+                                                  }
+                                             ]
+                                        },
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Power With is for leaders who have built a great deal and still sense that something essential remains out of reach. It shows you how to hold your influence so the people closest to you grow stronger in your presence. At home. At work. In every room you enter."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         },
+                         "column": 0
                     },
                     {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "It can look like competence, decisiveness and strength. In a crisis it has its place. As a default it produces distance, distrust and isolation, slowly, beneath a life that still looks highly functional."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/mark-power-over-62y5.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_62y5qnv209"
-                }
-              },
-              {
-                "heading": "POWER WITH",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Power with is the use of influence to stay in relationship.",
-                          "marks": [
-                            {
-                              "type": "italic"
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_ay2thycetx",
+                         "type": "newsletter",
+                         "v": 1,
+                         "fields": {
+                              "askName": false,
+                              "placeholder": "you@example.com",
+                              "buttonLabel": "SEND ME THE INTRODUCTION",
+                              "successMessage": "Almost there \u2014 check your inbox to confirm your subscription."
+                         },
+                         "variant": "stacked",
+                         "column": 0
                     },
                     {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "It holds authority and relationship at the same time. You lead, decide and act while staying connected to the people your choices affect. It is the more disciplined orientation, and it asks more of you than power over ever did."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/mark-power-with-6zfm.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_6zfmdjqe6d"
-                }
-              }
-            ],
-            "columns": "3",
-            "aspect": "original"
-          }
-        },
-        {
-          "id": "blk_8a0bghgzwy",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The trust you build carries forward in your absence. That is lasting influence.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "framework"
-    },
-    {
-      "id": "sec_pmfpeebwbg",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_2ja7hzztwx",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Power and closeness, held together.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "WHAT THIS BOOK GIVES YOU"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_jpt9ytsbnx",
-          "type": "quote",
-          "v": 1,
-          "fields": {
-            "quote": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "My intent in writing this book is to support you in becoming more powerful than you have ever been, while building the quality of relationships your life actually depends on."
-                    }
-                  ]
-                }
-              ]
-            },
-            "attribution": "SOPHIA LIFE"
-          }
-        },
-        {
-          "id": "blk_05qzgvssb2",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "WHAT YOU WILL LEARN TO DO",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Recognize the defended patterns running beneath your success, and the moment they take over."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_wqfy4exvyf",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The opening chapter of Power With, free in your inbox today. Publishing January 2027.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         },
+                         "column": 0
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Stay present in the conversations you used to win, avoid or end."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_7ygbew2zvw",
+                         "type": "image",
+                         "v": 1,
+                         "fields": {
+                              "image": {
+                                   "src": "media/2026/10/book-cover-front-ec7h.jpg",
+                                   "alt": "The cover of Power With by Sophia Life. Black, with the title in widely spaced capitals above two overlapping circles.",
+                                   "width": 800,
+                                   "height": 1200,
+                                   "mediaId": "med_ec7hrrg7y2"
+                              },
+                              "aspect": "original",
+                              "lightbox": false
+                         },
+                         "column": 1,
+                         "style": {
+                              "padding": {
+                                   "d": "none",
+                                   "m": "2xl"
+                              }
+                         }
+                    }
+               ],
+               "anchor": "top"
+          },
+          {
+               "id": "sec_z6zfy4gwzt",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark-accent",
+                    "background": {
+                         "type": "color",
+                         "color": "#4A1C18"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_mfkb0gwzde",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "The drive that builds companies can dismantle marriages.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "THE PATTERN",
+                              "subheading": "The control that commands respect can silence the people who love you most. The armor that makes you formidable can make you unreachable."
+                         },
+                         "variant": "eyebrow-rule"
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Acknowledge impact before you explain intent."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_9abhetj7kb",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Most people treat their success and their relational struggles as separate problems. The career is going well. The marriage is hard. Both run on the same operating system."
+                                                  }
+                                             ]
+                                        },
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The strategies that win in competition are specific. Control, self-sufficiency, the refusal to be affected, the need to stay ahead. At home and on a team, those same strategies create distance. The cost builds so slowly that most people see it only once it runs deep."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         },
+                         "variant": "columns"
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Repair after rupture, so trust grows stronger through conflict."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_04nhhr1b90",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Power With makes the pattern visible while it can still change.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    }
+               ],
+               "anchor": "pattern"
+          },
+          {
+               "id": "sec_nsmtqebyjp",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "light-accent",
+                    "background": {
+                         "type": "color",
+                         "color": "#EDE6D8"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_wzv9ex1may",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "A language for power.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "THE FRAMEWORK"
+                         },
+                         "variant": "eyebrow-rule"
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Lead from relational authority, the kind people follow by choice."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_asmp5rzbg6",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Three terms carry the whole book. They are simple to define. Once you hold them, you see every relationship, every team and every room differently."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Use the pause, the thirty seconds that change what you say next."
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_abyar3da4n",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "AT HOME",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Your partner reaches for you. Your children bring you what is hard as well as what is impressive. Conflict ends in repair, and the distance between you begins to close."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "AT WORK",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "People tell you what is actually happening. They commit to decisions they helped shape. Your best people stay, and the way your team works holds when you are out of the room."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "WITHIN YOU",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "The exhaustion of holding it all together begins to lift. You can be wrong and stay steady. You can be affected and remain intact."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "3",
-            "aspect": "4:5"
-          }
-        },
-        {
-          "id": "blk_2g36r3kbdn",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "These patterns took decades to form. The book gives you a clear map and practices to return to, one conversation at a time.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "what-changes"
-    },
-    {
-      "id": "sec_w8e87z96jx",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark-accent",
-        "background": {
-          "type": "color",
-          "color": "#3A3531"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_rv095634jg",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Ten capacities make power with possible.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "THE TEN PRINCIPLES"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_jm2ndhzde6",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Each principle is a practice. Each one closes with a single action you can begin today. Together they build the capacity to stay connected under pressure."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_qwafdap1bm",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "01 EMOTIONAL REGULATION",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Staying present through discomfort."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-01-regulation-tpg6.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_tpg6yx116y"
-                }
-              },
-              {
-                "heading": "02 EMPATHY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Prioritizing another's experience when it matters most."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-02-empathy-eexf.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_eexfwm54fa"
-                }
-              },
-              {
-                "heading": "03 LISTENING",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Receiving another person's world."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-03-listening-190j.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_190jh3j2vc"
-                }
-              },
-              {
-                "heading": "04 HUMILITY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Remaining teachable while staying yourself."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-04-humility-g8dq.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_g8dq1m5xfa"
-                }
-              },
-              {
-                "heading": "05 UNDERSTANDING",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Holding more than one perspective."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-05-understanding-nfs1.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_nfs1v0xpc2"
-                }
-              },
-              {
-                "heading": "06 RELATIONALITY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Transforming control into connection."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-06-relationality-gspx.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_gspxvbt2rm"
-                }
-              },
-              {
-                "heading": "07 INTEGRITY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Aligning word, action and energy."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-07-integrity-fajj.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_fajjrb1n53"
-                }
-              },
-              {
-                "heading": "08 TRUST",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Building safety through consistency, transparency and care."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-08-trust-bbzt.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_bbztw8typd"
-                }
-              },
-              {
-                "heading": "09 RESPONSIBILITY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Owning your impact."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-09-responsibility-jjw7.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_jjw7jrkmyt"
-                }
-              },
-              {
-                "heading": "10 REPAIR",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Coming back."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "image": {
-                  "src": "media/2026/10/principle-10-repair-tdhq.png",
-                  "alt": "",
-                  "width": 576,
-                  "height": 96,
-                  "mediaId": "med_tdhq9j38ya"
-                }
-              }
-            ],
-            "columns": "5",
-            "aspect": "original"
-          }
-        },
-        {
-          "id": "blk_qznr44mh7a",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Each return is the practice.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "principles"
-    },
-    {
-      "id": "sec_01evjpg7f3",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            7,
-            5
-          ],
-          "m": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "brand",
-        "background": {
-          "type": "color",
-          "color": "#8E4A30"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_gwe7k66v5r",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Read the first pages tonight.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "FREE · THE INTRODUCTION"
-          },
-          "variant": "eyebrow-rule",
-          "column": 0
-        },
-        {
-          "id": "blk_ch3ygqqw25",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The Introduction gives you the full language of the book. Power, power over and power with. The pattern beneath success. Why these patterns can change. Read it before you decide."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 0
-        },
-        {
-          "id": "blk_xyrej9d54k",
-          "type": "newsletter",
-          "v": 1,
-          "fields": {
-            "askName": false,
-            "placeholder": "you@example.com",
-            "buttonLabel": "SEND ME THE INTRODUCTION",
-            "successMessage": "Almost there — check your inbox to confirm your subscription."
-          },
-          "variant": "stacked",
-          "column": 1
-        },
-        {
-          "id": "blk_cj33g2r3z0",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The Introduction arrives today, followed by occasional letters from Sophia. Unsubscribe anytime.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 1
-        }
-      ],
-      "anchor": "introduction"
-    },
-    {
-      "id": "sec_35seqmzggg",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_qjynw0zkeq",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Success is measured in relationship.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "A NEW MEASURE"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_m764bs298v",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Power With offers five measures. Read them slowly. Notice which one stays with you."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_ebn909pkrg",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "orderedList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The safety people feel in your presence."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_vvn5bbf4qf",
+                         "type": "columns",
+                         "v": 1,
+                         "fields": {
+                              "items": [
+                                   {
+                                        "heading": "POWER",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Power is the capacity to shape outcomes.",
+                                                                 "marks": [
+                                                                      {
+                                                                           "type": "italic"
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Every conversation shapes one. Every meeting, every dinner and every decision shapes the trust and safety of the people around you. You hold more power than you may realize."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/circle-1stb.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_1stb4v71r6"
+                                        }
+                                   },
+                                   {
+                                        "heading": "POWER OVER",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Power over is the use of influence to control.",
+                                                                 "marks": [
+                                                                      {
+                                                                           "type": "italic"
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "It can look like competence, decisiveness and strength. In a crisis it has its place. As a default it produces distance, distrust and isolation, slowly, beneath a life that still looks highly functional."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/mark-power-over-62y5.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_62y5qnv209"
+                                        }
+                                   },
+                                   {
+                                        "heading": "POWER WITH",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Power with is the use of influence to stay in relationship.",
+                                                                 "marks": [
+                                                                      {
+                                                                           "type": "italic"
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "It holds authority and relationship at the same time. You lead, decide and act while staying connected to the people your choices affect. It is the more disciplined orientation, and it asks more of you than power over ever did."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/mark-power-with-6zfm.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_6zfmdjqe6d"
+                                        }
+                                   }
+                              ],
+                              "columns": "3",
+                              "aspect": "original"
+                         }
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The willingness of others to tell you what is actually happening."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_8a0bghgzwy",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The trust you build carries forward in your absence. That is lasting influence.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    }
+               ],
+               "anchor": "framework"
+          },
+          {
+               "id": "sec_pmfpeebwbg",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark",
+                    "background": {
+                         "type": "color",
+                         "color": "#0F0E0C"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_2ja7hzztwx",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Power and closeness, held together.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "WHAT THIS BOOK GIVES YOU"
+                         },
+                         "variant": "eyebrow-rule"
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The quality of your attention when others speak."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_jpt9ytsbnx",
+                         "type": "quote",
+                         "v": 1,
+                         "fields": {
+                              "quote": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "My intent in writing this book is to support you in becoming more powerful than you have ever been, while building the quality of relationships your life actually depends on."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              },
+                              "attribution": "SOPHIA LIFE"
+                         }
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Your willingness to repair when you have caused harm."
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_05qzgvssb2",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "WHAT YOU WILL LEARN TO DO",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "bold"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        {
+                                             "type": "bulletList",
+                                             "content": [
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Recognize the defended patterns running beneath your success, and the moment they take over."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Stay present in the conversations you used to win, avoid or end."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Acknowledge impact before you explain intent."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Repair after rupture, so trust grows stronger through conflict."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Lead from relational authority, the kind people follow by choice."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Use the pause, the thirty seconds that change what you say next."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
                     },
                     {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The depth of connection you sustain over time."
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_2wjps4yhwa",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "These are the hardest measures there are.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "measures"
-    },
-    {
-      "id": "sec_b2x0ajk68v",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark-accent",
-        "background": {
-          "type": "color",
-          "color": "#3C402F"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_6vb0mnx1ss",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "The authority people follow by choice.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "FOR LEADERS"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_txhr9gx2st",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "POSITIONAL AUTHORITY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "It comes with the title. It can compel compliance and direct behavior. Compliance is its ceiling."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "RELATIONAL AUTHORITY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "It accumulates through trust. People bring you problems early. They tell you what they tell no one else. They commit to decisions they did not make, and they stay when they could leave."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "2",
-            "aspect": "4:5"
-          }
-        },
-        {
-          "id": "blk_rsnjep21jz",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The inner work is the leadership work.",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "authority"
-    },
-    {
-      "id": "sec_feyb10hfcp",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light-accent",
-        "background": {
-          "type": "color",
-          "color": "#EDE6D8"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_m1b12nj5jh",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Sophia Life",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "THE AUTHOR"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_w9rsc2dwmv",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Sophia Life writes from the field. For more than a decade she has studied the patterns in this book up close and practiced the principles that change them."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "She paired that practice with years of study across depth psychology, attachment theory, developmental psychology, neuroscience, systems thinking, leadership theory and relational philosophy. The result is a synthesis written for the person living inside these patterns, and for the person who loves them."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Sophia is a coach and organizational consultant with a background in urban planning and product development. She writes The Quality of Life on Substack and lives in Boulder, Colorado. [Years in practice, notable clients and speaking credits.]"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "variant": "columns"
-        },
-        {
-          "id": "blk_v3kw696js1",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "THE THINKING BEHIND THE BOOK",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Carol Gilligan · Martin Buber · Jessica Benjamin · Terry Real · Otto Kernberg · Heinz Kohut · Donald Winnicott · Joseph Burgo · Daniel Schmachtenberger"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "anchor": "author"
-    },
-    {
-      "id": "sec_bctdyc3g1j",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark-accent",
-        "background": {
-          "type": "color",
-          "color": "#3A3531"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_2erjssvpqy",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Bring power with into how your team leads.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "FOR ORGANIZATIONS"
-          },
-          "variant": "eyebrow-rule"
-        },
-        {
-          "id": "blk_e8ep1hjxs9",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Leadership regenerates or degenerates at three pressure points. How you make decisions. How you hold accountability. How you relate to conflict. Sophia works with leaders and teams on all three."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_rtpvwfy7xy",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "KEYNOTES",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Sophia speaks on relational power to conferences, boards and leadership retreats."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "WORKSHOPS",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "The ten principles brought into how your team meets, decides and repairs."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "ADVISORY",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Ongoing work with leaders who want their authority to rest on trust."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "3",
-            "aspect": "4:5"
-          }
-        }
-      ],
-      "anchor": "organizations"
-    },
-    {
-      "id": "sec_gbmnjxk7p8",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_xn0745zt13",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "PRESS AND PODCASTS",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Interview Sophia about power, leadership and intimacy.",
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ]
-                        }
-                      ]
+                         "id": "blk_abyar3da4n",
+                         "type": "columns",
+                         "v": 1,
+                         "fields": {
+                              "items": [
+                                   {
+                                        "heading": "AT HOME",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Your partner reaches for you. Your children bring you what is hard as well as what is impressive. Conflict ends in repair, and the distance between you begins to close."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   },
+                                   {
+                                        "heading": "AT WORK",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "People tell you what is actually happening. They commit to decisions they helped shape. Your best people stay, and the way your team works holds when you are out of the room."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   },
+                                   {
+                                        "heading": "WITHIN YOU",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "The exhaustion of holding it all together begins to lift. You can be wrong and stay steady. You can be affected and remain intact."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   }
+                              ],
+                              "columns": "3",
+                              "aspect": "4:5"
+                         }
                     },
                     {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Download the media kit with bio, headshots, cover art and suggested questions."
-                        }
-                      ]
+                         "id": "blk_2g36r3kbdn",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "These patterns took decades to form. The book gives you a clear map and practices to return to, one conversation at a time.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
                     }
-                  ]
-                }
-              },
-              {
-                "heading": "THE QUALITY OF LIFE",
-                "body": {
-                  "type": "doc",
-                  "content": [
+               ],
+               "anchor": "what-changes"
+          },
+          {
+               "id": "sec_w8e87z96jx",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark-accent",
+                    "background": {
+                         "type": "color",
+                         "color": "#3A3531"
+                    }
+               },
+               "blocks": [
                     {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Essays drawn from the ideas in Power With.",
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "2",
-            "aspect": "4:5"
-          },
-          "style": {
-            "typography": {
-              "heading": "eyebrow"
-            }
-          }
-        }
-      ],
-      "anchor": "press-essays"
-    },
-    {
-      "id": "sec_snyba6cw8z",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "brand",
-        "background": {
-          "type": "color",
-          "color": "#8E4A30"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_4wy6fxamen",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Influence that keeps the relationship intact.",
-            "level": "h2",
-            "size": "auto"
-          },
-          "variant": "plain",
-          "style": {
-            "align": {
-              "d": "center"
-            },
-            "typography": {
-              "heading": "lead"
-            }
-          }
-        },
-        {
-          "id": "blk_mgetbsswgr",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
+                         "id": "blk_rv095634jg",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Ten capacities make power with possible.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "THE TEN PRINCIPLES"
+                         },
+                         "variant": "eyebrow-rule"
+                    },
                     {
-                      "type": "text",
-                      "text": "Begin with the Introduction. It is free."
+                         "id": "blk_jm2ndhzde6",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Each principle is a practice. Each one closes with a single action you can begin today. Together they build the capacity to stay connected under pressure."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    },
+                    {
+                         "id": "blk_qwafdap1bm",
+                         "type": "columns",
+                         "v": 1,
+                         "fields": {
+                              "items": [
+                                   {
+                                        "heading": "01 EMOTIONAL REGULATION",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Staying present through discomfort."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-01-regulation-tpg6.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_tpg6yx116y"
+                                        }
+                                   },
+                                   {
+                                        "heading": "02 EMPATHY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Prioritizing another's experience when it matters most."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-02-empathy-eexf.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_eexfwm54fa"
+                                        }
+                                   },
+                                   {
+                                        "heading": "03 LISTENING",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Receiving another person's world."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-03-listening-190j.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_190jh3j2vc"
+                                        }
+                                   },
+                                   {
+                                        "heading": "04 HUMILITY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Remaining teachable while staying yourself."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-04-humility-g8dq.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_g8dq1m5xfa"
+                                        }
+                                   },
+                                   {
+                                        "heading": "05 UNDERSTANDING",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Holding more than one perspective."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-05-understanding-nfs1.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_nfs1v0xpc2"
+                                        }
+                                   },
+                                   {
+                                        "heading": "06 RELATIONALITY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Transforming control into connection."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-06-relationality-gspx.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_gspxvbt2rm"
+                                        }
+                                   },
+                                   {
+                                        "heading": "07 INTEGRITY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Aligning word, action and energy."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-07-integrity-fajj.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_fajjrb1n53"
+                                        }
+                                   },
+                                   {
+                                        "heading": "08 TRUST",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Building safety through consistency, transparency and care."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-08-trust-bbzt.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_bbztw8typd"
+                                        }
+                                   },
+                                   {
+                                        "heading": "09 RESPONSIBILITY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Owning your impact."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-09-responsibility-jjw7.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_jjw7jrkmyt"
+                                        }
+                                   },
+                                   {
+                                        "heading": "10 REPAIR",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Coming back."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        "image": {
+                                             "src": "media/2026/10/principle-10-repair-tdhq.png",
+                                             "alt": "",
+                                             "width": 576,
+                                             "height": 96,
+                                             "mediaId": "med_tdhq9j38ya"
+                                        }
+                                   }
+                              ],
+                              "columns": "5",
+                              "aspect": "original"
+                         }
+                    },
+                    {
+                         "id": "blk_qznr44mh7a",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Each return is the practice.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
                     }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_kh6ghfcf98",
-          "type": "newsletter",
-          "v": 1,
-          "fields": {
-            "askName": false,
-            "placeholder": "you@example.com",
-            "buttonLabel": "SEND ME THE INTRODUCTION",
-            "successMessage": "Almost there — check your inbox to confirm your subscription."
+               ],
+               "anchor": "principles"
           },
-          "variant": "stacked"
-        }
-      ],
-      "anchor": "begin"
-    }
-  ]
+          {
+               "id": "sec_01evjpg7f3",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              7,
+                              5
+                         ],
+                         "m": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "brand",
+                    "background": {
+                         "type": "color",
+                         "color": "#8E4A30"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_gwe7k66v5r",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Read the first pages tonight.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "FREE \u00b7 THE INTRODUCTION"
+                         },
+                         "variant": "eyebrow-rule",
+                         "column": 0
+                    },
+                    {
+                         "id": "blk_ch3ygqqw25",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The Introduction gives you the full language of the book. Power, power over and power with. The pattern beneath success. Why these patterns can change. Read it before you decide."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         },
+                         "column": 0
+                    },
+                    {
+                         "id": "blk_xyrej9d54k",
+                         "type": "newsletter",
+                         "v": 1,
+                         "fields": {
+                              "askName": false,
+                              "placeholder": "you@example.com",
+                              "buttonLabel": "SEND ME THE INTRODUCTION",
+                              "successMessage": "Almost there \u2014 check your inbox to confirm your subscription."
+                         },
+                         "variant": "stacked",
+                         "column": 1
+                    },
+                    {
+                         "id": "blk_cj33g2r3z0",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The Introduction arrives today, followed by occasional letters from Sophia. Unsubscribe anytime.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         },
+                         "column": 1
+                    }
+               ],
+               "anchor": "introduction"
+          },
+          {
+               "id": "sec_35seqmzggg",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark",
+                    "background": {
+                         "type": "color",
+                         "color": "#0F0E0C"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_qjynw0zkeq",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Success is measured in relationship.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "A NEW MEASURE"
+                         },
+                         "variant": "eyebrow-rule"
+                    },
+                    {
+                         "id": "blk_m764bs298v",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Power With offers five measures. Read them slowly. Notice which one stays with you."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    },
+                    {
+                         "id": "blk_ebn909pkrg",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "orderedList",
+                                             "content": [
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "The safety people feel in your presence."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "The willingness of others to tell you what is actually happening."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "The quality of your attention when others speak."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "Your willingness to repair when you have caused harm."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "listItem",
+                                                       "content": [
+                                                            {
+                                                                 "type": "paragraph",
+                                                                 "content": [
+                                                                      {
+                                                                           "type": "text",
+                                                                           "text": "The depth of connection you sustain over time."
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    },
+                    {
+                         "id": "blk_2wjps4yhwa",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "These are the hardest measures there are.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    }
+               ],
+               "anchor": "measures"
+          },
+          {
+               "id": "sec_b2x0ajk68v",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark-accent",
+                    "background": {
+                         "type": "color",
+                         "color": "#3C402F"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_6vb0mnx1ss",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "The authority people follow by choice.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "FOR LEADERS"
+                         },
+                         "variant": "eyebrow-rule"
+                    },
+                    {
+                         "id": "blk_txhr9gx2st",
+                         "type": "columns",
+                         "v": 1,
+                         "fields": {
+                              "items": [
+                                   {
+                                        "heading": "POSITIONAL AUTHORITY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "It comes with the title. It can compel compliance and direct behavior. Compliance is its ceiling."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   },
+                                   {
+                                        "heading": "RELATIONAL AUTHORITY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "It accumulates through trust. People bring you problems early. They tell you what they tell no one else. They commit to decisions they did not make, and they stay when they could leave."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   }
+                              ],
+                              "columns": "2",
+                              "aspect": "4:5"
+                         }
+                    },
+                    {
+                         "id": "blk_rsnjep21jz",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "attrs": {
+                                                  "preset": "lead"
+                                             },
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "The inner work is the leadership work.",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "italic"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    }
+               ],
+               "anchor": "authority"
+          },
+          {
+               "id": "sec_feyb10hfcp",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "light-accent",
+                    "background": {
+                         "type": "color",
+                         "color": "#EDE6D8"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_m1b12nj5jh",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Sophia Life",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "THE AUTHOR"
+                         },
+                         "variant": "eyebrow-rule"
+                    },
+                    {
+                         "id": "blk_w9rsc2dwmv",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Sophia Life writes from the field. For more than a decade she has studied the patterns in this book up close and practiced the principles that change them."
+                                                  }
+                                             ]
+                                        },
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "She paired that practice with years of study across depth psychology, attachment theory, developmental psychology, neuroscience, systems thinking, leadership theory and relational philosophy. The result is a synthesis written for the person living inside these patterns, and for the person who loves them."
+                                                  }
+                                             ]
+                                        },
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Sophia is a coach and organizational consultant with a background in urban planning and product development. She writes The Quality of Life on Substack and lives in Boulder, Colorado. [Years in practice, notable clients and speaking credits.]"
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         },
+                         "variant": "columns"
+                    },
+                    {
+                         "id": "blk_v3kw696js1",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "THE THINKING BEHIND THE BOOK",
+                                                       "marks": [
+                                                            {
+                                                                 "type": "bold"
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        },
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Carol Gilligan \u00b7 Martin Buber \u00b7 Jessica Benjamin \u00b7 Terry Real \u00b7 Otto Kernberg \u00b7 Heinz Kohut \u00b7 Donald Winnicott \u00b7 Joseph Burgo \u00b7 Daniel Schmachtenberger"
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    }
+               ],
+               "anchor": "author"
+          },
+          {
+               "id": "sec_bctdyc3g1j",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark-accent",
+                    "background": {
+                         "type": "color",
+                         "color": "#3A3531"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_2erjssvpqy",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Bring power with into how your team leads.",
+                              "level": "h2",
+                              "size": "auto",
+                              "eyebrow": "FOR ORGANIZATIONS"
+                         },
+                         "variant": "eyebrow-rule"
+                    },
+                    {
+                         "id": "blk_e8ep1hjxs9",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Leadership regenerates or degenerates at three pressure points. How you make decisions. How you hold accountability. How you relate to conflict. Sophia works with leaders and teams on all three."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    },
+                    {
+                         "id": "blk_rtpvwfy7xy",
+                         "type": "columns",
+                         "v": 1,
+                         "fields": {
+                              "items": [
+                                   {
+                                        "heading": "KEYNOTES",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Sophia speaks on relational power to conferences, boards and leadership retreats."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   },
+                                   {
+                                        "heading": "WORKSHOPS",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "The ten principles brought into how your team meets, decides and repairs."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   },
+                                   {
+                                        "heading": "ADVISORY",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Ongoing work with leaders who want their authority to rest on trust."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   }
+                              ],
+                              "columns": "3",
+                              "aspect": "4:5"
+                         }
+                    }
+               ],
+               "anchor": "organizations"
+          },
+          {
+               "id": "sec_gbmnjxk7p8",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "dark",
+                    "background": {
+                         "type": "color",
+                         "color": "#0F0E0C"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_xn0745zt13",
+                         "type": "columns",
+                         "v": 1,
+                         "fields": {
+                              "items": [
+                                   {
+                                        "heading": "PRESS AND PODCASTS",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Interview Sophia about power, leadership and intimacy.",
+                                                                 "marks": [
+                                                                      {
+                                                                           "type": "bold"
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  },
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Download the media kit with bio, headshots, cover art and suggested questions."
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   },
+                                   {
+                                        "heading": "THE QUALITY OF LIFE",
+                                        "body": {
+                                             "type": "doc",
+                                             "content": [
+                                                  {
+                                                       "type": "paragraph",
+                                                       "content": [
+                                                            {
+                                                                 "type": "text",
+                                                                 "text": "Essays drawn from the ideas in Power With.",
+                                                                 "marks": [
+                                                                      {
+                                                                           "type": "bold"
+                                                                      }
+                                                                 ]
+                                                            }
+                                                       ]
+                                                  }
+                                             ]
+                                        }
+                                   }
+                              ],
+                              "columns": "2",
+                              "aspect": "4:5"
+                         },
+                         "style": {
+                              "typography": {
+                                   "heading": "eyebrow"
+                              }
+                         }
+                    }
+               ],
+               "anchor": "press-essays"
+          },
+          {
+               "id": "sec_snyba6cw8z",
+               "layout": {
+                    "mode": "stack",
+                    "columns": {
+                         "d": [
+                              12
+                         ]
+                    }
+               },
+               "style": {
+                    "colorTheme": "brand",
+                    "background": {
+                         "type": "color",
+                         "color": "#8E4A30"
+                    }
+               },
+               "blocks": [
+                    {
+                         "id": "blk_4wy6fxamen",
+                         "type": "heading",
+                         "v": 1,
+                         "fields": {
+                              "text": "Influence that keeps the relationship intact.",
+                              "level": "h2",
+                              "size": "auto"
+                         },
+                         "variant": "plain",
+                         "style": {
+                              "align": {
+                                   "d": "center"
+                              },
+                              "typography": {
+                                   "heading": "lead"
+                              }
+                         }
+                    },
+                    {
+                         "id": "blk_mgetbsswgr",
+                         "type": "text",
+                         "v": 1,
+                         "fields": {
+                              "content": {
+                                   "type": "doc",
+                                   "content": [
+                                        {
+                                             "type": "paragraph",
+                                             "content": [
+                                                  {
+                                                       "type": "text",
+                                                       "text": "Begin with the Introduction. It is free."
+                                                  }
+                                             ]
+                                        }
+                                   ]
+                              }
+                         }
+                    },
+                    {
+                         "id": "blk_kh6ghfcf98",
+                         "type": "newsletter",
+                         "v": 1,
+                         "fields": {
+                              "askName": false,
+                              "placeholder": "you@example.com",
+                              "buttonLabel": "SEND ME THE INTRODUCTION",
+                              "successMessage": "Almost there \u2014 check your inbox to confirm your subscription."
+                         },
+                         "variant": "stacked"
+                    }
+               ],
+               "anchor": "begin"
+          }
+     ]
 }
