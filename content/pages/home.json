@@ -128,6 +128,7 @@
           "m": "none"
         }
       },
+      "hidden": true,
       "blocks": [
         {
           "id": "blk_nmf91z0c1m",
@@ -146,8 +147,7 @@
             "layout": "strip"
           }
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "sec_n2vqwj7da4",
@@ -750,6 +750,7 @@
           "m": "none"
         }
       },
+      "hidden": true,
       "blocks": [
         {
           "id": "blk_72sj1p54jb",
@@ -778,8 +779,7 @@
             "layout": "grid"
           }
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "sec_vh3zw9s301",
@@ -923,12 +923,12 @@
       "id": "sec_snyba6cw8z",
       "anchor": "begin",
       "layout": {
+        "mode": "stack",
         "columns": {
           "d": [
             12
           ]
         },
-        "mode": "stack",
         "width": "narrow"
       },
       "style": {

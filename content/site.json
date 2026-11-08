@@ -47,12 +47,13 @@
     "variant": "classic-left",
     "sticky": false,
     "transparentOnHero": false,
-    "mobileMenu": "fullscreen",
+    "mobileMenu": "dropdown",
     "colorTheme": "dark"
   },
   "footer": {
     "id": "sec_bnt8jt0x8w",
     "label": "Footer",
+    "anchor": "contact",
     "layout": {
       "mode": "stack",
       "columns": {
@@ -256,8 +257,7 @@
           }
         }
       }
-    ],
-    "anchor": "contact"
+    ]
   },
   "social": [
     {

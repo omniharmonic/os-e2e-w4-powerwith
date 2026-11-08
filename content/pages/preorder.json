@@ -118,6 +118,7 @@
     },
     {
       "id": "sec_m30y71k69w",
+      "label": "Notify me (not in handoff - hidden)",
       "anchor": "notify",
       "layout": {
         "mode": "stack",
@@ -138,6 +139,7 @@
           "color": "#3A3531"
         }
       },
+      "hidden": true,
       "blocks": [
         {
           "id": "blk_xqc0z0w8tg",
@@ -214,9 +216,7 @@
             }
           }
         }
-      ],
-      "hidden": true,
-      "label": "Notify me (not in handoff - hidden)"
+      ]
     },
     {
       "id": "sec_a7zy825che",

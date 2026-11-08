@@ -6,6 +6,9 @@
     "title": "The Introduction is on its way",
     "noindex": true
   },
+  "header": {
+    "hidden": true
+  },
   "hidden": true,
   "sections": [
     {
@@ -14,12 +17,12 @@
       "label": "Closing call to action (sigil, italic line, body)",
       "anchor": "confirmation",
       "layout": {
+        "mode": "stack",
         "columns": {
           "d": [
             12
           ]
         },
-        "mode": "stack",
         "width": "narrow"
       },
       "style": {
@@ -29,8 +32,8 @@
           "m": "md"
         },
         "background": {
-          "color": "#0F0E0C",
-          "type": "color"
+          "type": "color",
+          "color": "#0F0E0C"
         }
       },
       "blocks": [
@@ -71,8 +74,8 @@
           "m": "sm"
         },
         "background": {
-          "color": "#0F0E0C",
-          "type": "color"
+          "type": "color",
+          "color": "#0F0E0C"
         }
       },
       "blocks": [
@@ -111,13 +114,13 @@
       },
       "style": {
         "colorTheme": "dark",
-        "background": {
-          "color": "#0F0E0C",
-          "type": "color"
-        },
         "padding": {
           "d": "lg",
           "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#0F0E0C"
         }
       },
       "blocks": [
@@ -176,8 +179,5 @@
         }
       ]
     }
-  ],
-  "header": {
-    "hidden": true
-  }
+  ]
 }

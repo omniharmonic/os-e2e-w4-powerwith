@@ -117,8 +117,8 @@
           "size": 34,
           "sizeMobile": 27,
           "lineHeight": 1.2,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         }
       },
       "eyebrowColor": "muted"

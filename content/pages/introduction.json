@@ -7,6 +7,9 @@
     "description": "The opening chapter of Power With by Sophia Life. A language for power that changes what you are able to see.",
     "image": "media/2026/10/book-cover-front-ec7h.jpg"
   },
+  "header": {
+    "hidden": true
+  },
   "hidden": true,
   "sections": [
     {
@@ -158,12 +161,12 @@
       "id": "sec_2vvmrjd3nz",
       "anchor": "begin",
       "layout": {
+        "mode": "stack",
         "columns": {
           "d": [
             12
           ]
         },
-        "mode": "stack",
         "width": "narrow"
       },
       "style": {
@@ -202,8 +205,5 @@
         }
       ]
     }
-  ],
-  "header": {
-    "hidden": true
-  }
+  ]
 }
