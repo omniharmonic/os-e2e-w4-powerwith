@@ -1,0 +1,52 @@
+{
+  "name": "pw-offer",
+  "label": "Offer card",
+  "description": "A Clay card with a small label, one large sentence and a primary button.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "body": {
+      "kind": "text",
+      "label": "Large sentence",
+      "maxLength": 200,
+      "multiline": true
+    },
+    "buttonLabel": {
+      "kind": "text",
+      "label": "Button text",
+      "maxLength": 40
+    },
+    "buttonLink": {
+      "kind": "link",
+      "label": "Where the button goes"
+    },
+    "label": {
+      "kind": "text",
+      "label": "Small label",
+      "optional": true,
+      "maxLength": 60
+    }
+  },
+  "defaults": {
+    "body": "Pre-order now and receive the Orientation guide, a companion for your first reading.",
+    "buttonLabel": "PRE-ORDER AND CLAIM THE GUIDE",
+    "buttonLink": {
+      "page": "pg_pccta3f6fk",
+      "type": "page"
+    },
+    "label": "PUBLISHING JANUARY 2027"
+  },
+  "template": "<div class=\"pw\"><div class=\"pw__in\"><div class=\"pw__card\"><div class=\"pw__t\">{{#if label}}<p class=\"pw__kicker\">{{label}}</p>{{/if}}<p class=\"pw__big\">{{body}}</p></div><a class=\"pw__btn\" href=\"{{href buttonLink}}\">{{buttonLabel}}</a></div></div></div>",
+  "css": ":scope{display:block;width:100%}.pw{color:#EDE6D8;font-family:var(--os-font-body)}\n.pw__in{box-sizing:content-box;max-width:1000px;margin:0 auto;padding:0 32px}\n.pw__card{background:#8E4A30;padding:48px;display:flex;flex-wrap:wrap;gap:32px;align-items:center;justify-content:space-between}\n.pw__t{flex:999 1 380px;min-width:0}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-size:11px;letter-spacing:.3em;text-transform:uppercase}\n.pw__big{margin:14px 0 0;font-family:var(--os-font-heading);font-weight:500;font-size:32px;line-height:1.2}\n.pw__t>.pw__big:first-child{margin-top:0}\n.pw__btn{flex:0 0 auto;font-family:var(--os-font-label);font-size:12px;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;color:#EDE6D8;background:#0F0E0C;padding:18px 26px;line-height:normal}\n.pw__btn:focus-visible{outline:2px solid #EDE6D8;outline-offset:3px}\n@media (max-width:767px){.pw__in{padding:0 20px}.pw__card{padding:28px 24px}.pw__big{font-size:25px}.pw__btn{text-align:center;flex-basis:100%}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Thank-you offer card.",
+    "whenToUse": "Confirmation pages."
+  }
+}

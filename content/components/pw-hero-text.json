@@ -1,0 +1,67 @@
+{
+  "name": "pw-hero-text",
+  "label": "Hero text (title, subtitle, lead, body)",
+  "description": "The text half of the home hero: label, rule, large title, italic subtitle, lead line, paragraph and a small caption for the sign-up field below it. Place above a sign-up form block.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "body": {
+      "kind": "text",
+      "label": "Paragraph",
+      "optional": true,
+      "maxLength": 520,
+      "multiline": true
+    },
+    "formLabel": {
+      "kind": "text",
+      "label": "Caption above the email field (sighted visitors)",
+      "optional": true,
+      "maxLength": 40
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label",
+      "optional": true,
+      "maxLength": 60
+    },
+    "lead": {
+      "kind": "text",
+      "label": "Lead line",
+      "optional": true,
+      "maxLength": 200,
+      "multiline": true
+    },
+    "subtitle": {
+      "kind": "text",
+      "label": "Italic subtitle",
+      "optional": true,
+      "maxLength": 120
+    },
+    "title": {
+      "kind": "text",
+      "label": "Title",
+      "maxLength": 80
+    }
+  },
+  "defaults": {
+    "body": "Power With is for leaders who have built a great deal and still sense that something essential remains out of reach. It shows you how to hold your influence so the people closest to you grow stronger in your presence. At home. At work. In every room you enter.",
+    "formLabel": "EMAIL ADDRESS",
+    "kicker": "A BOOK BY SOPHIA LIFE",
+    "lead": "The strategies that build success often erode the relationships success depends on.",
+    "subtitle": "The Relational Foundation of Lasting Influence",
+    "title": "Power With"
+  },
+  "template": "<div class=\"pw\">{{#if kicker}}<p class=\"pw__kicker\">{{kicker}}</p>{{/if}}<div class=\"pw__rule\"></div><h1 class=\"pw__h1\">{{title}}</h1>{{#if subtitle}}<p class=\"pw__sub\">{{subtitle}}</p>{{/if}}{{#if lead}}<p class=\"pw__lead\">{{lead}}</p>{{/if}}{{#if body}}<p class=\"pw__body\">{{body}}</p>{{/if}}{{#if formLabel}}<p class=\"pw__fl\" aria-hidden=\"true\">{{formLabel}}</p>{{/if}}</div>",
+  "css": ":scope{display:block;width:100%}.pw{color:#EDE6D8;font-family:var(--os-font-body);font-weight:400}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#C2B8A6}\n.pw__rule{width:64px;height:2px;background:#8E4A30;margin:28px 0 32px}\n.pw__h1{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:96px;line-height:1;color:#EDE6D8}\n.pw__sub{margin:16px 0 0;font-family:var(--os-font-heading);font-style:italic;font-weight:500;font-size:30px;line-height:1.2;color:#C2B8A6}\n.pw__lead{margin:40px 0 0;font-family:var(--os-font-heading);font-weight:500;font-size:34px;line-height:1.2;max-width:22em}\n.pw__body{margin:24px 0 0;font-size:21px;line-height:1.5;max-width:34em}\n.pw__fl{margin:40px 0 -4px;font-family:var(--os-font-label);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#C2B8A6}\n@media (max-width:767px){.pw__kicker{font-size:11px}.pw__rule{width:48px;margin:24px 0}.pw__h1{font-size:58px}.pw__sub{font-size:23px}.pw__lead{font-size:27px;margin-top:28px}.pw__body{font-size:19px}.pw__fl{margin-top:28px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Text half of the home hero.",
+    "whenToUse": "Hero with a sign-up form block placed below."
+  }
+}

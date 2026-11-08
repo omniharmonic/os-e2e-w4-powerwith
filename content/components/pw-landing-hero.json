@@ -1,0 +1,96 @@
+{
+  "name": "pw-landing-hero",
+  "label": "Landing hero text",
+  "description": "Text half of the opt-in landing hero: label, rule, large headline, italic subhead, paragraph, ruled list with label, and an audience line. Place above or beside a sign-up form.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "audience": {
+      "kind": "text",
+      "label": "Audience line",
+      "optional": true,
+      "maxLength": 260,
+      "multiline": true
+    },
+    "body": {
+      "kind": "text",
+      "label": "Paragraph",
+      "optional": true,
+      "maxLength": 420,
+      "multiline": true
+    },
+    "headline": {
+      "kind": "text",
+      "label": "Headline",
+      "maxLength": 120
+    },
+    "items": {
+      "kind": "list",
+      "label": "List",
+      "fields": {
+        "text": {
+          "kind": "text",
+          "label": "Line",
+          "maxLength": 200,
+          "multiline": true
+        }
+      },
+      "min": 0,
+      "max": 8,
+      "itemLabel": "text"
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label",
+      "optional": true,
+      "maxLength": 60
+    },
+    "listLabel": {
+      "kind": "text",
+      "label": "Label above the list",
+      "optional": true,
+      "maxLength": 60
+    },
+    "subhead": {
+      "kind": "text",
+      "label": "Italic subhead",
+      "optional": true,
+      "maxLength": 120
+    }
+  },
+  "defaults": {
+    "audience": "For leaders who have built a great deal and still sense something essential is out of reach. And for the people who love them.",
+    "body": "In the opening pages, Sophia Life gives you a language for power that changes what you are able to see. In your marriage, in your family and in every team you lead.",
+    "headline": "The strategies that kept you safe are still running.",
+    "items": [
+      {
+        "text": "The three terms that organize every relationship you hold. Power, power over and power with."
+      },
+      {
+        "text": "Why the qualities that drive achievement so often create distance at home."
+      },
+      {
+        "text": "How defended patterns form, and why they come to feel like personality."
+      },
+      {
+        "text": "Why these patterns can change, and where change begins."
+      }
+    ],
+    "kicker": "FREE FROM POWER WITH BY SOPHIA LIFE",
+    "listLabel": "INSIDE THE INTRODUCTION",
+    "subhead": "Read the Introduction to Power With, free."
+  },
+  "template": "<div class=\"pw\">{{#if kicker}}<p class=\"pw__kicker\">{{kicker}}</p>{{/if}}<div class=\"pw__rule\"></div><h1 class=\"pw__h1\">{{headline}}</h1>{{#if subhead}}<p class=\"pw__sub\">{{subhead}}</p>{{/if}}{{#if body}}<p class=\"pw__body\">{{body}}</p>{{/if}}{{#if listLabel}}<p class=\"pw__ll\">{{listLabel}}</p>{{/if}}{{#if items}}<ul class=\"pw__ul\">{{#each items}}<li>{{text}}</li>{{/each}}</ul>{{/if}}{{#if audience}}<p class=\"pw__aud\">{{audience}}</p>{{/if}}</div>",
+  "css": ":scope{display:block;width:100%}.pw{color:#EDE6D8;font-family:var(--os-font-body);font-weight:400}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#C2B8A6}\n.pw__rule{width:64px;height:2px;background:#8E4A30;margin:28px 0 32px}\n.pw__h1{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:76px;line-height:1.02;color:#EDE6D8}\n.pw__sub{margin:24px 0 0;font-family:var(--os-font-heading);font-style:italic;font-weight:500;font-size:30px;line-height:normal;color:#C2B8A6}\n.pw__body{margin:28px 0 0;font-size:21px;line-height:1.5;max-width:32em}\n.pw__ll{margin:40px 0 0;font-family:var(--os-font-label);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#C2B8A6}\n.pw__ul{margin:14px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:20px;line-height:1.45}\n.pw__ul li{border-top:1px solid #3A3531;padding-top:12px}.pw__ul li:last-child{border-bottom:1px solid #3A3531;padding-bottom:12px}\n.pw__aud{margin:28px 0 0;font-size:19px;line-height:1.5;color:#C2B8A6}\n@media (max-width:767px){.pw__kicker{font-size:11px}.pw__rule{width:48px;margin:24px 0}.pw__h1{font-size:44px;line-height:1.05}.pw__sub{font-size:24px}.pw__body{font-size:19px}.pw__ll{margin-top:32px}.pw__ul{font-size:18px}.pw__aud{font-size:18px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Landing hero text.",
+    "whenToUse": "Opt-in landing page top section."
+  }
+}

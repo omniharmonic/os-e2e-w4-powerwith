@@ -1,0 +1,241 @@
+{
+  "name": "pw-cards",
+  "label": "Cards section (Framework, Authority, Organizations)",
+  "description": "Section with label, rule, headline, intro and a row of hairline-topped cards, an italic closing line and an optional button. Three card styles: terms with icons, plain columns, and compact.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "buttonLabel": {
+      "kind": "text",
+      "label": "Button text",
+      "optional": true,
+      "maxLength": 40
+    },
+    "buttonLink": {
+      "kind": "link",
+      "label": "Where the button goes",
+      "optional": true
+    },
+    "buttonStyle": {
+      "kind": "select",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Primary"
+        },
+        {
+          "value": "outline",
+          "label": "Outline"
+        }
+      ],
+      "display": "segmented"
+    },
+    "cardStyle": {
+      "kind": "select",
+      "label": "Card style",
+      "options": [
+        {
+          "value": "terms",
+          "label": "Terms with icons and a large definition"
+        },
+        {
+          "value": "columns",
+          "label": "Plain columns with a small label"
+        },
+        {
+          "value": "compact",
+          "label": "Compact cards"
+        }
+      ],
+      "display": "dropdown"
+    },
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "body": {
+          "kind": "text",
+          "label": "Card text",
+          "maxLength": 520,
+          "multiline": true
+        },
+        "customIcon": {
+          "kind": "image",
+          "label": "Or upload your own icon",
+          "optional": true
+        },
+        "definition": {
+          "kind": "text",
+          "label": "Large line under the label",
+          "optional": true,
+          "maxLength": 140
+        },
+        "emphasis": {
+          "kind": "boolean",
+          "label": "Highlight this card"
+        },
+        "icon": {
+          "kind": "select",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "circle",
+              "label": "Circle (power)"
+            },
+            {
+              "value": "power-over",
+              "label": "Power over mark"
+            },
+            {
+              "value": "power-with",
+              "label": "Power with mark"
+            }
+          ],
+          "display": "dropdown"
+        },
+        "label": {
+          "kind": "text",
+          "label": "Card label",
+          "maxLength": 60
+        }
+      },
+      "min": 1,
+      "max": 9,
+      "itemLabel": "label"
+    },
+    "closing": {
+      "kind": "text",
+      "label": "Italic closing line",
+      "optional": true,
+      "maxLength": 160
+    },
+    "closingSize": {
+      "kind": "select",
+      "label": "Closing line size",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "display": "segmented"
+    },
+    "ground": {
+      "kind": "select",
+      "label": "Section background",
+      "options": [
+        {
+          "value": "obsidian",
+          "label": "Obsidian (near black)"
+        },
+        {
+          "value": "bone",
+          "label": "Bone (light)"
+        },
+        {
+          "value": "umber",
+          "label": "Umber (warm charcoal)"
+        },
+        {
+          "value": "oxblood",
+          "label": "Oxblood (deep red)"
+        },
+        {
+          "value": "clay",
+          "label": "Clay (accent)"
+        },
+        {
+          "value": "olive",
+          "label": "Olive (deep green)"
+        }
+      ],
+      "display": "dropdown"
+    },
+    "headline": {
+      "kind": "text",
+      "label": "Section headline",
+      "help": "Keep under 12 words.",
+      "maxLength": 140
+    },
+    "headlineSize": {
+      "kind": "select",
+      "label": "Headline size",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "display": "segmented"
+    },
+    "intro": {
+      "kind": "text",
+      "label": "Introduction",
+      "optional": true,
+      "maxLength": 420,
+      "multiline": true
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label above the headline",
+      "optional": true,
+      "maxLength": 60
+    }
+  },
+  "defaults": {
+    "buttonStyle": "primary",
+    "cardStyle": "terms",
+    "cards": [
+      {
+        "body": "Every conversation shapes one. Every meeting, every dinner and every decision shapes the trust and safety of the people around you. You hold more power than you may realize.",
+        "definition": "Power is the capacity to shape outcomes.",
+        "emphasis": false,
+        "icon": "circle",
+        "label": "POWER"
+      },
+      {
+        "body": "It can look like competence, decisiveness and strength. In a crisis it has its place. As a default it produces distance, distrust and isolation, slowly, beneath a life that still looks highly functional.",
+        "definition": "Power over is the use of influence to control.",
+        "emphasis": false,
+        "icon": "power-over",
+        "label": "POWER OVER"
+      },
+      {
+        "body": "It holds authority and relationship at the same time. You lead, decide and act while staying connected to the people your choices affect. It is the more disciplined orientation, and it asks more of you than power over ever did.",
+        "definition": "Power with is the use of influence to stay in relationship.",
+        "emphasis": false,
+        "icon": "power-with",
+        "label": "POWER WITH"
+      }
+    ],
+    "closing": "The trust you build carries forward in your absence. That is lasting influence.",
+    "closingSize": "large",
+    "ground": "bone",
+    "headline": "A language for power.",
+    "headlineSize": "large",
+    "intro": "Three terms carry the whole book. They are simple to define. Once you hold them, you see every relationship, every team and every room differently.",
+    "kicker": "THE FRAMEWORK"
+  },
+  "template": "<div class=\"pw\" data-ground=\"{{ground}}\" data-style=\"{{cardStyle}}\">\n<div class=\"pw__in\">\n{{#if kicker}}<p class=\"pw__kicker\">{{kicker}}</p>{{/if}}\n<div class=\"pw__rule\"></div>\n<h2 class=\"pw__h2\" data-size=\"{{headlineSize}}\">{{headline}}</h2>\n{{#if intro}}<p class=\"pw__intro\">{{intro}}</p>{{/if}}\n<div class=\"pw__grid\">\n{{#each cards}}<div class=\"pw__card\">\n{{#if emphasis}}<i class=\"pw__em\" aria-hidden=\"true\"></i>{{/if}}\n<div class=\"pw__ic\" data-icon=\"{{icon}}\">\n<svg class=\"i-circle\" width=\"56\" height=\"56\" viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"24\" r=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle></svg>\n<svg class=\"i-over\" width=\"56\" height=\"56\" viewBox=\"0 0 40 52\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"11\" r=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle><line x1=\"6\" y1=\"26\" x2=\"34\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"1.4\"></line><circle cx=\"20\" cy=\"41\" r=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle></svg>\n<svg class=\"i-with\" width=\"84\" height=\"56\" viewBox=\"0 0 60 40\" aria-hidden=\"true\"><circle cx=\"22\" cy=\"20\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle><circle cx=\"36\" cy=\"20\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle></svg>\n</div>\n{{#if customIcon}}<div class=\"pw__cic\">{{image customIcon sizes=\"96px\"}}</div>{{/if}}\n<h3 class=\"pw__label\">{{label}}</h3>\n{{#if definition}}<p class=\"pw__def\">{{definition}}</p>{{/if}}\n<p class=\"pw__body\">{{body}}</p>\n</div>{{/each}}\n</div>\n{{#if closing}}<p class=\"pw__close\" data-size=\"{{closingSize}}\">{{closing}}</p>{{/if}}\n{{#if buttonLabel}}{{#if buttonLink}}<a class=\"pw__btn pw__btn--{{buttonStyle}}\" href=\"{{href buttonLink}}\">{{buttonLabel}}</a>{{/if}}{{/if}}\n</div>\n</div>",
+  "css": ":scope{display:block;width:100%}\n.pw{--bg:#0F0E0C;--tx:#EDE6D8;--lb:#C2B8A6;--rl:#8E4A30;--hl:#3A3531;--bb:#8E4A30;--bt:#EDE6D8;--ol:#C2B8A6;background:var(--bg);color:var(--tx);font-family:var(--os-font-body);font-weight:400}\n.pw[data-ground=\"bone\"]{--bg:#EDE6D8;--tx:#0F0E0C;--lb:#3A3531;--rl:#8E4A30;--hl:#3A3531;--bb:#0F0E0C;--bt:#EDE6D8;--ol:#0F0E0C}\n.pw[data-ground=\"umber\"]{--bg:#3A3531;--tx:#EDE6D8;--lb:#C2B8A6;--rl:#C2B8A6;--hl:#C2B8A6;--bb:#EDE6D8;--bt:#0F0E0C;--ol:#C2B8A6}\n.pw[data-ground=\"oxblood\"]{--bg:#4A1C18;--tx:#EDE6D8;--lb:#C2B8A6;--rl:#C2B8A6;--hl:#C2B8A6;--bb:#EDE6D8;--bt:#0F0E0C;--ol:#C2B8A6}\n.pw[data-ground=\"clay\"]{--bg:#8E4A30;--tx:#EDE6D8;--lb:#EDE6D8;--rl:#EDE6D8;--hl:#EDE6D8;--bb:#0F0E0C;--bt:#EDE6D8;--ol:#EDE6D8}\n.pw[data-ground=\"olive\"]{--bg:#3C402F;--tx:#EDE6D8;--lb:#C2B8A6;--rl:#C2B8A6;--hl:#C2B8A6;--bb:#EDE6D8;--bt:#0F0E0C;--ol:#C2B8A6}\n.pw__in{box-sizing:content-box;max-width:1200px;margin:0 auto;padding:112px 32px}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--lb)}\n.pw__rule{width:64px;height:2px;background:var(--rl);margin:28px 0 32px}\n.pw__in>.pw__rule:first-child{margin-top:0}\n.pw__h2{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:60px;line-height:1.08;color:var(--tx);text-wrap:balance}\n.pw__h2[data-size=\"large\"]{font-size:64px;line-height:1.05}\n.pw__intro{margin:24px 0 0;font-size:21px;line-height:1.5;max-width:36em}\n.pw__grid{display:grid;gap:40px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:64px}\n.pw__card{border-top:1px solid var(--hl);padding-top:28px}\n.pw__em{display:none}\n.pw__card:has(.pw__em){border-top-color:var(--tx)}\n.pw__ic{color:var(--lb);line-height:0}\n.pw__ic svg{display:none}\n.pw__ic[data-icon=\"circle\"] .i-circle,.pw__ic[data-icon=\"power-over\"] .i-over{display:block}\n.pw__ic[data-icon=\"power-with\"] .i-with{display:block;color:var(--rl)}\n.pw__ic[data-icon=\"none\"],.pw__ic:not([data-icon]){display:none}\n.pw__cic{line-height:0}.pw__cic img{display:block;width:56px;height:56px;object-fit:contain}\n.pw__label{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--lb)}\n.pw__def{margin:14px 0 0;font-family:var(--os-font-heading);font-weight:500;font-size:28px;line-height:1.2;color:var(--tx)}\n.pw__body{margin:14px 0 0;font-size:21px;line-height:1.5;color:var(--tx)}\n.pw__close{margin:56px 0 0;font-family:var(--os-font-heading);font-style:italic;font-weight:500;font-size:30px;line-height:normal;color:var(--tx)}\n.pw__close[data-size=\"large\"]{font-size:34px;line-height:1.2}\n.pw__btn{display:inline-block;margin-top:48px;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;line-height:normal;cursor:pointer}\n.pw__btn--primary{background:var(--bb);color:var(--bt);padding:18px 28px}\n.pw__btn--outline{border:1px solid var(--ol);color:var(--tx);padding:16px 24px}\n.pw__btn:focus-visible{outline:2px solid var(--tx);outline-offset:3px}\n.pw[data-style=\"terms\"] .pw__label{font-size:14px;color:var(--tx);margin-top:18px}\n.pw[data-style=\"terms\"] .pw__body{font-size:19px}\n.pw[data-style=\"terms\"] .pw__close{margin-top:64px}\n.pw[data-style=\"columns\"] .pw__grid{margin-top:56px}\n.pw[data-style=\"columns\"] .pw__card{padding-top:24px}\n.pw[data-style=\"columns\"] .pw__card:has(.pw__em) .pw__label{color:var(--tx)}\n.pw[data-style=\"compact\"] .pw__grid{margin-top:56px;gap:32px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}\n.pw[data-style=\"compact\"] .pw__card{padding-top:20px}\n.pw[data-style=\"compact\"] .pw__label{color:var(--tx)}\n.pw[data-style=\"compact\"] .pw__body{margin-top:12px;font-size:20px;line-height:1.45}\n@media (max-width:767px){\n.pw__in{padding:56px 20px}\n.pw__kicker{font-size:11px}\n.pw__rule{width:48px;margin:24px 0 24px}\n.pw__h2,.pw__h2[data-size=\"large\"]{font-size:40px;line-height:1.1}\n.pw__intro{font-size:19px;margin-top:20px}\n.pw__grid,.pw[data-style=\"columns\"] .pw__grid,.pw[data-style=\"compact\"] .pw__grid{grid-template-columns:1fr;gap:28px;margin-top:36px}\n.pw__def{font-size:23px}\n.pw__body,.pw[data-style=\"terms\"] .pw__body,.pw[data-style=\"compact\"] .pw__body{font-size:19px}\n.pw__close,.pw__close[data-size=\"large\"],.pw[data-style=\"terms\"] .pw__close{font-size:27px;margin-top:40px}\n.pw__btn{margin-top:36px}\n}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  }
+}

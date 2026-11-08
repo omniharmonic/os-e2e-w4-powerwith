@@ -27,7 +27,7 @@
         "weights": [
           400
         ],
-        "italic": true
+        "italic": false
       },
       "label": {
         "family": "Montserrat",
@@ -42,15 +42,15 @@
           "size": 76,
           "sizeMobile": 44,
           "lineHeight": 1.02,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "h2": {
           "size": 60,
           "sizeMobile": 40,
           "lineHeight": 1.08,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "body": {
           "size": 21,
@@ -62,22 +62,22 @@
           "size": 34,
           "sizeMobile": 27,
           "lineHeight": 1.2,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "h4": {
           "size": 30,
           "sizeMobile": 23,
           "lineHeight": 1.25,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "display": {
           "size": 96,
           "sizeMobile": 58,
           "lineHeight": 1,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "small": {
           "size": 17,
@@ -86,83 +86,128 @@
           "font": "body"
         },
         "eyebrow": {
-          "font": "label",
           "size": 12,
           "sizeMobile": 11,
           "letterSpacing": 0.3,
-          "case": "uppercase"
+          "case": "uppercase",
+          "font": "label"
         },
         "button": {
-          "font": "label",
           "size": 12,
           "sizeMobile": 12,
           "letterSpacing": 0.22,
-          "case": "uppercase"
+          "case": "uppercase",
+          "font": "label"
         },
         "nav": {
-          "font": "label",
           "size": 12,
           "sizeMobile": 11,
           "letterSpacing": 0.24,
-          "case": "uppercase"
+          "case": "uppercase",
+          "font": "label"
         },
         "wordmark": {
-          "font": "label",
           "size": 14,
           "sizeMobile": 12,
-          "letterSpacing": 0.29,
-          "case": "uppercase"
+          "letterSpacing": 0.32,
+          "case": "uppercase",
+          "font": "label"
         },
         "lead": {
-          "size": 52,
-          "sizeMobile": 34,
-          "lineHeight": 1.25,
-          "font": "heading"
+          "size": 34,
+          "sizeMobile": 27,
+          "lineHeight": 1.2,
+          "font": "heading",
+          "weight": 500
         }
       },
       "eyebrowColor": "muted"
     },
     "layout": {
       "contentWidth": 1200,
+      "narrowWidth": 1000,
       "sectionPadding": 112,
-      "sectionPaddingMobile": 90,
-      "gutterMobile": 20,
+      "sectionPaddingMobile": 56,
       "gutter": 32,
-      "narrowWidth": 1000
+      "gutterMobile": 20
     }
   },
   "overrides": {
     "color": {
       "dark": {
         "heading": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#944E33",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#0F0E0C",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#C2B8A6",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#0F0E0C",
+          "$type": "color"
         }
       },
       "dark-accent": {
         "text": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#ede6d8",
+          "$type": "color"
         },
         "heading": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#ede6d8",
+          "$type": "color"
         }
       },
       "light-accent": {
         "text": {
-          "$type": "color",
-          "$value": "#0f0e0c"
+          "$value": "#0f0e0c",
+          "$type": "color"
         }
       },
       "brand": {
         "text": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
         },
         "heading": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#050504",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#8E4A30",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#8E4A30",
+          "$type": "color"
         }
       }
     }

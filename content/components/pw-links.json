@@ -1,0 +1,139 @@
+{
+  "name": "pw-links",
+  "label": "Two link blocks (Press and Essays)",
+  "description": "Row of hairline-topped blocks, each with a label, large line, text and outline buttons.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "blocks": {
+      "kind": "list",
+      "label": "Blocks",
+      "fields": {
+        "body": {
+          "kind": "text",
+          "label": "Text",
+          "maxLength": 300,
+          "multiline": true
+        },
+        "buttons": {
+          "kind": "list",
+          "label": "Buttons",
+          "fields": {
+            "label": {
+              "kind": "text",
+              "label": "Button text",
+              "maxLength": 40
+            },
+            "link": {
+              "kind": "link",
+              "label": "Where it goes"
+            }
+          },
+          "min": 0,
+          "max": 3,
+          "itemLabel": "label"
+        },
+        "headline": {
+          "kind": "text",
+          "label": "Large line",
+          "maxLength": 140
+        },
+        "label": {
+          "kind": "text",
+          "label": "Small label",
+          "maxLength": 60
+        }
+      },
+      "min": 1,
+      "max": 4,
+      "itemLabel": "label"
+    },
+    "ground": {
+      "kind": "select",
+      "label": "Section background",
+      "options": [
+        {
+          "value": "obsidian",
+          "label": "Obsidian (near black)"
+        },
+        {
+          "value": "bone",
+          "label": "Bone (light)"
+        },
+        {
+          "value": "umber",
+          "label": "Umber (warm charcoal)"
+        },
+        {
+          "value": "oxblood",
+          "label": "Oxblood (deep red)"
+        },
+        {
+          "value": "clay",
+          "label": "Clay (accent)"
+        },
+        {
+          "value": "olive",
+          "label": "Olive (deep green)"
+        }
+      ],
+      "display": "dropdown"
+    }
+  },
+  "defaults": {
+    "blocks": [
+      {
+        "body": "Download the media kit with bio, headshots, cover art and suggested questions.",
+        "buttons": [
+          {
+            "label": "MEDIA KIT",
+            "link": {
+              "anchor": "essays",
+              "page": "pg_eq7h19rjgt",
+              "type": "page"
+            }
+          },
+          {
+            "label": "BOOK AN INTERVIEW",
+            "link": {
+              "anchor": "contact",
+              "page": "pg_eq7h19rjgt",
+              "type": "page"
+            }
+          }
+        ],
+        "headline": "Interview Sophia about power, leadership and intimacy.",
+        "label": "PRESS AND PODCASTS"
+      },
+      {
+        "body": "[Latest three essays from Substack.]",
+        "buttons": [
+          {
+            "label": "SUBSCRIBE ON SUBSTACK",
+            "link": {
+              "anchor": "essays",
+              "page": "pg_eq7h19rjgt",
+              "type": "page"
+            }
+          }
+        ],
+        "headline": "Essays drawn from the ideas in Power With.",
+        "label": "THE QUALITY OF LIFE"
+      }
+    ],
+    "ground": "obsidian"
+  },
+  "template": "<div class=\"pw\" data-ground=\"{{ground}}\"><div class=\"pw__in\">{{#each blocks}}<div class=\"pw__blk\"><p class=\"pw__kicker\">{{label}}</p><p class=\"pw__hl\">{{headline}}</p><p class=\"pw__bd\">{{body}}</p>{{#if buttons}}<div class=\"pw__btns\">{{#each buttons}}<a class=\"pw__btn\" href=\"{{href link}}\">{{label}}</a>{{/each}}</div>{{/if}}</div>{{/each}}</div></div>",
+  "css": ":scope{display:block;width:100%}.pw{--bg:#0F0E0C;--tx:#EDE6D8;--lb:#C2B8A6;--hl:#3A3531;--ol:#C2B8A6;background:var(--bg);color:var(--tx);font-family:var(--os-font-body);font-weight:400}.pw[data-ground=\"bone\"]{--bg:#EDE6D8;--tx:#0F0E0C;--lb:#3A3531;--hl:#3A3531;--ol:#0F0E0C}.pw[data-ground=\"umber\"]{--bg:#3A3531;--hl:#C2B8A6}.pw[data-ground=\"oxblood\"]{--bg:#4A1C18;--hl:#C2B8A6}.pw[data-ground=\"clay\"]{--bg:#8E4A30;--lb:#EDE6D8;--hl:#EDE6D8;--ol:#EDE6D8}.pw[data-ground=\"olive\"]{--bg:#3C402F;--hl:#C2B8A6}\n.pw__in{box-sizing:content-box;max-width:1200px;margin:0 auto;padding:96px 32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:48px}\n.pw__blk{border-top:1px solid var(--hl);padding-top:28px}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--lb)}\n.pw__hl{margin:16px 0 0;font-family:var(--os-font-heading);font-weight:500;font-size:32px;line-height:1.2}\n.pw__bd{margin:12px 0 0;font-size:19px;line-height:1.5;color:var(--lb)}\n.pw__btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}\n.pw__btn{display:inline-block;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;line-height:normal;color:var(--tx);border:1px solid var(--ol);padding:15px 22px}\n.pw__btn:focus-visible{outline:2px solid var(--tx);outline-offset:3px}\n@media (max-width:767px){.pw__in{padding:56px 20px;grid-template-columns:1fr;gap:40px}.pw__kicker{font-size:11px}.pw__hl{font-size:27px}.pw__btns{flex-direction:column}.pw__btn{text-align:center}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Two or more link blocks with outline buttons.",
+    "whenToUse": "Press / media / newsletter link pairs."
+  }
+}

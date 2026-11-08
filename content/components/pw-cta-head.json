@@ -1,0 +1,104 @@
+{
+  "name": "pw-cta-head",
+  "label": "Closing call to action (sigil, italic line, body)",
+  "description": "Centred sigil, large italic line and short body for the closing opt-in. Place above a sign-up form block.",
+  "version": 3,
+  "category": "power-with",
+  "fields": {
+    "body": {
+      "kind": "text",
+      "label": "Body",
+      "optional": true,
+      "maxLength": 200,
+      "multiline": true
+    },
+    "formLabel": {
+      "kind": "text",
+      "label": "Caption above the email field (sighted visitors)",
+      "optional": true,
+      "maxLength": 40
+    },
+    "isTitle": {
+      "kind": "boolean",
+      "label": "This is the page title (Heading 1)"
+    },
+    "line": {
+      "kind": "text",
+      "label": "Large line",
+      "maxLength": 140
+    },
+    "lineStyle": {
+      "kind": "select",
+      "label": "Line style",
+      "options": [
+        {
+          "value": "italic",
+          "label": "Italic, large"
+        },
+        {
+          "value": "roman",
+          "label": "Upright, medium"
+        },
+        {
+          "value": "title",
+          "label": "Upright, page title"
+        }
+      ],
+      "display": "segmented"
+    },
+    "showSigil": {
+      "kind": "boolean",
+      "label": "Show the Power With sigil"
+    },
+    "sigilColor": {
+      "kind": "select",
+      "label": "Sigil colour",
+      "options": [
+        {
+          "value": "bone",
+          "label": "Bone (on Clay)"
+        },
+        {
+          "value": "clay",
+          "label": "Clay (on Obsidian)"
+        }
+      ],
+      "display": "segmented"
+    }
+  },
+  "defaults": {
+    "body": "Begin with the Introduction. It is free.",
+    "formLabel": "EMAIL ADDRESS",
+    "isTitle": false,
+    "line": "Influence that keeps the relationship intact.",
+    "lineStyle": "italic",
+    "showSigil": true,
+    "sigilColor": "bone"
+  },
+  "template": "<div class=\"pw\">{{#if showSigil}}<svg class=\"pw__sig\" data-c=\"{{sigilColor}}\" width=\"96\" height=\"64\" viewBox=\"0 0 60 40\" aria-hidden=\"true\"><circle cx=\"22\" cy=\"20\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\"></circle><circle cx=\"36\" cy=\"20\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\"></circle></svg>{{/if}}{{#if isTitle}}<h1 class=\"pw__line\" data-style=\"{{lineStyle}}\">{{line}}</h1>{{else}}<h2 class=\"pw__line\" data-style=\"{{lineStyle}}\">{{line}}</h2>{{/if}}{{#if body}}<p class=\"pw__body\">{{body}}</p>{{/if}}{{#if formLabel}}<p class=\"pw__fl\" aria-hidden=\"true\">{{formLabel}}</p>{{/if}}</div>",
+  "css": ":scope{display:block;width:100%}.pw{color:#EDE6D8;font-family:var(--os-font-body);text-align:center;display:flex;flex-direction:column;align-items:center}\n.pw__sig{display:block;color:#EDE6D8}.pw__sig[data-c=\"clay\"]{color:#8E4A30}\n.pw__line{margin:32px 0 0;font-family:var(--os-font-heading);font-style:italic;font-weight:500;font-size:50px;line-height:1.12;color:#EDE6D8;text-wrap:balance}\n.pw__line[data-style=\"roman\"]{font-style:normal;font-size:44px;line-height:1.1}\n.pw__line[data-style=\"title\"]{font-style:normal;font-size:64px;line-height:1.05}\n.pw>.pw__line:first-child{margin-top:0}\n.pw__body{margin:20px 0 0;font-size:21px;line-height:1.5;max-width:30em}\n.pw__fl{align-self:flex-start;margin:36px 0 -4px;font-family:var(--os-font-label);font-size:11px;letter-spacing:.24em;text-transform:uppercase}\n@media (max-width:767px){.pw__line{font-size:36px;margin-top:24px}.pw__line[data-style=\"roman\"]{font-size:32px}.pw__line[data-style=\"title\"]{font-size:42px}.pw__body{font-size:19px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Closing opt-in heading block.",
+    "whenToUse": "Centered closing call to action."
+  },
+  "migrations": {
+    "1": {
+      "set": {
+        "isTitle": false,
+        "lineStyle": "italic"
+      }
+    },
+    "2": {
+      "set": {
+        "sigilColor": "bone"
+      }
+    }
+  }
+}

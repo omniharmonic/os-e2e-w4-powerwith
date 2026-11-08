@@ -52,6 +52,7 @@
   },
   "footer": {
     "id": "sec_bnt8jt0x8w",
+    "label": "Footer",
     "layout": {
       "mode": "stack",
       "columns": {
@@ -78,6 +79,7 @@
         "id": "blk_vwbppx615q",
         "type": "text",
         "v": 1,
+        "column": 0,
         "fields": {
           "content": {
             "type": "doc",
@@ -97,7 +99,6 @@
             ]
           }
         },
-        "column": 0,
         "style": {
           "align": {
             "d": "start",
@@ -109,13 +110,33 @@
         "id": "blk_37h6zza0es",
         "type": "text",
         "v": 1,
+        "column": 1,
         "fields": {
           "content": {
             "type": "doc",
             "content": [
               {
                 "type": "paragraph",
+                "attrs": {
+                  "preset": "eyebrow"
+                },
                 "content": [
+                  {
+                    "type": "text",
+                    "text": "CONTACT",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "#contact"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
                   {
                     "type": "text",
                     "text": "INSTAGRAM",
@@ -124,6 +145,38 @@
                         "type": "link",
                         "attrs": {
                           "href": "https://www.instagram.com/sophia.life.wisdom"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "LINKEDIN",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "#contact"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "SUBSTACK",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/#essays"
                         }
                       }
                     ]
@@ -160,15 +213,11 @@
                       }
                     ]
                   }
-                ],
-                "attrs": {
-                  "preset": "eyebrow"
-                }
+                ]
               }
             ]
           }
         },
-        "column": 1,
         "style": {
           "align": {
             "d": "center",
@@ -180,6 +229,7 @@
         "id": "blk_n00wq6g1nq",
         "type": "text",
         "v": 1,
+        "column": 2,
         "fields": {
           "content": {
             "type": "doc",
@@ -199,7 +249,6 @@
             ]
           }
         },
-        "column": 2,
         "style": {
           "align": {
             "d": "end",
@@ -208,7 +257,7 @@
         }
       }
     ],
-    "label": "Footer"
+    "anchor": "contact"
   },
   "social": [
     {

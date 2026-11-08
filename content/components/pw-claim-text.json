@@ -1,0 +1,81 @@
+{
+  "name": "pw-claim-text",
+  "label": "Claim text (Clay half)",
+  "description": "Left half of the pre-order gift section: label, rule, large headline, text and a ruled list. Sits on the section's own colour so a form can stand beside it.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "body": {
+      "kind": "text",
+      "label": "Text",
+      "maxLength": 400,
+      "multiline": true
+    },
+    "headline": {
+      "kind": "text",
+      "label": "Headline",
+      "maxLength": 120
+    },
+    "items": {
+      "kind": "list",
+      "label": "List",
+      "fields": {
+        "text": {
+          "kind": "text",
+          "label": "Line",
+          "maxLength": 200
+        }
+      },
+      "min": 0,
+      "max": 8,
+      "itemLabel": "text"
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label",
+      "maxLength": 60
+    },
+    "listLabel": {
+      "kind": "text",
+      "label": "List label",
+      "optional": true,
+      "maxLength": 60
+    }
+  },
+  "defaults": {
+    "body": "A companion for your first reading. Power With asks a great deal of its reader. The Orientation helps you take it in and keep it close.",
+    "headline": "Pre-order and receive the Orientation.",
+    "items": [
+      {
+        "text": "The framework on one page. Power, power over and power with."
+      },
+      {
+        "text": "The ten principles at a glance, with the practice from each."
+      },
+      {
+        "text": "How to read the book. Straight through once, then back to the principles one at a time."
+      },
+      {
+        "text": "The five measures of success, set as a reflection to return to."
+      },
+      {
+        "text": "The pause, the single practice beneath all ten."
+      }
+    ],
+    "kicker": "PRE-ORDER GIFT",
+    "listLabel": "INSIDE THE ORIENTATION"
+  },
+  "template": "<div class=\"pw\"><p class=\"pw__kicker\">{{kicker}}</p><div class=\"pw__rule\"></div><h2 class=\"pw__h\">{{headline}}</h2><p class=\"pw__lead\">{{body}}</p>{{#if listLabel}}<p class=\"pw__ll\">{{listLabel}}</p>{{/if}}{{#if items}}<ul class=\"pw__ul\">{{#each items}}<li>{{text}}</li>{{/each}}</ul>{{/if}}</div>",
+  "css": ":scope{display:block;width:100%}.pw{color:#EDE6D8;font-family:var(--os-font-body)}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase}\n.pw__rule{width:64px;height:2px;background:#EDE6D8;margin:28px 0 32px}\n.pw__h{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:56px;line-height:1.06}\n.pw__lead{margin:24px 0 0;font-size:21px;line-height:1.5}\n.pw__ll{margin:32px 0 0;font-family:var(--os-font-label);font-size:11px;letter-spacing:.3em;text-transform:uppercase}\n.pw__ul{margin:14px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:20px;line-height:1.45}\n.pw__ul li{border-top:1px solid #EDE6D8;padding-top:12px}\n@media (max-width:767px){.pw__h{font-size:38px}.pw__lead{font-size:19px}.pw__ul{font-size:18px}.pw__kicker{font-size:11px}.pw__rule{margin:20px 0 24px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Claim section text.",
+    "whenToUse": "Next to the claim form."
+  }
+}

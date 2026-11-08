@@ -9,153 +9,116 @@
   },
   "sections": [
     {
-      "id": "sec_sytyr2yb7h",
+      "id": "sec_dxj78nkw2g",
+      "preset": "component/pw-sales-hero@1",
+      "label": "Pre-order hero",
+      "anchor": "formats",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
-            8,
-            4
-          ],
-          "m": [
             12
           ]
         },
-        "align": "center"
+        "width": "full"
       },
       "style": {
         "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
+        "padding": {
+          "d": "none",
+          "m": "none"
         }
       },
       "blocks": [
         {
-          "id": "blk_3yw340y24j",
-          "type": "heading",
+          "id": "blk_z4jr6va1mj",
+          "type": "component/pw-sales-hero",
           "v": 1,
           "fields": {
-            "text": "Power and closeness, held together.",
-            "level": "h1",
-            "size": "display",
-            "eyebrow": "PRE-ORDER · PUBLISHING JANUARY 2027"
-          },
-          "variant": "eyebrow-rule",
-          "column": 0
-        },
-        {
-          "id": "blk_zq5nszx7m0",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Reserve your copy of Power With and receive the Orientation, a companion for your first reading. Every pre-order counts toward launch week."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 0
-        },
-        {
-          "id": "blk_vw9rsqhh39",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
+            "body": "Reserve your copy of Power With and receive the Orientation, a companion for your first reading. Every pre-order counts toward launch week.",
+            "formats": [
               {
-                "heading": "PAPERBACK",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "$21.95"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "KINDLE",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              },
-              {
-                "heading": "AUDIOBOOK",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "COMING"
-                        }
-                      ]
+                "buttons": [
+                  {
+                    "label": "AMAZON",
+                    "link": {
+                      "anchor": "claim",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
                     },
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "An audiobook is planned. Readers on the list hear first."
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "primary": true
+                  },
+                  {
+                    "label": "BARNES & NOBLE",
+                    "link": {
+                      "anchor": "claim",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    },
+                    "primary": false
+                  },
+                  {
+                    "label": "BOOKSHOP.ORG",
+                    "link": {
+                      "anchor": "claim",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    },
+                    "primary": false
+                  },
+                  {
+                    "label": "YOUR LOCAL BOOKSTORE",
+                    "link": {
+                      "anchor": "claim",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    },
+                    "primary": false
+                  }
+                ],
+                "name": "PAPERBACK",
+                "note": "",
+                "price": "$21.95 [TO CONFIRM]"
+              },
+              {
+                "buttons": [
+                  {
+                    "label": "AMAZON KINDLE",
+                    "link": {
+                      "anchor": "claim",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    },
+                    "primary": false
+                  }
+                ],
+                "name": "KINDLE",
+                "note": "",
+                "price": "[PRICE]"
+              },
+              {
+                "buttons": [],
+                "name": "AUDIOBOOK",
+                "note": "An audiobook is planned. Readers on the list hear first.",
+                "price": "COMING"
               }
             ],
-            "columns": "3",
-            "aspect": "4:5"
-          },
-          "column": 0
-        },
-        {
-          "id": "blk_22te90trq3",
-          "type": "image",
-          "v": 1,
-          "fields": {
-            "image": {
-              "src": "media/2026/10/book-cover-front-ec7h.jpg",
+            "headline": "Power and closeness, held together.",
+            "kicker": "PRE-ORDER · PUBLISHING JANUARY 2027",
+            "cover": {
               "alt": "The cover of Power With by Sophia Life.",
-              "width": 800,
               "height": 1200,
-              "mediaId": "med_ec7hrrg7y2"
-            },
-            "aspect": "original",
-            "lightbox": false
-          },
-          "column": 1,
-          "style": {
-            "padding": {
-              "d": "none",
-              "m": "2xl"
+              "mediaId": "med_ec7hrrg7y2",
+              "src": "media/2026/10/book-cover-front-ec7h.jpg",
+              "width": 800
             }
           }
         }
-      ],
-      "anchor": "formats"
+      ]
     },
     {
       "id": "sec_m30y71k69w",
+      "anchor": "notify",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -180,19 +143,20 @@
           "id": "blk_xqc0z0w8tg",
           "type": "heading",
           "v": 1,
+          "column": 0,
           "fields": {
             "text": "Hear first when pre-orders open.",
             "level": "h2",
             "size": "auto",
             "eyebrow": "PRE-ORDERS OPEN SOON"
           },
-          "variant": "eyebrow-rule",
-          "column": 0
+          "variant": "eyebrow-rule"
         },
         {
           "id": "blk_wsn0zjd15y",
           "type": "text",
           "v": 1,
+          "column": 0,
           "fields": {
             "content": {
               "type": "doc",
@@ -208,26 +172,26 @@
                 }
               ]
             }
-          },
-          "column": 0
+          }
         },
         {
           "id": "blk_71mees7anb",
           "type": "newsletter",
           "v": 1,
+          "column": 1,
           "fields": {
             "askName": false,
             "placeholder": "you@example.com",
             "buttonLabel": "TELL ME WHEN IT OPENS",
             "successMessage": "Almost there — check your inbox to confirm your subscription."
           },
-          "variant": "stacked",
-          "column": 1
+          "variant": "stacked"
         },
         {
           "id": "blk_jcr79cxdf6",
           "type": "text",
           "v": 1,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -248,14 +212,15 @@
                 }
               ]
             }
-          },
-          "column": 1
+          }
         }
       ],
-      "anchor": "notify"
+      "hidden": true,
+      "label": "Notify me (not in handoff - hidden)"
     },
     {
       "id": "sec_a7zy825che",
+      "anchor": "claim",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -277,146 +242,39 @@
       },
       "blocks": [
         {
-          "id": "blk_nzpvagkvg9",
-          "type": "heading",
+          "id": "blk_4831yc4m1g",
+          "type": "component/pw-claim-text",
           "v": 1,
+          "column": 0,
           "fields": {
-            "text": "Pre-order and receive the Orientation.",
-            "level": "h2",
-            "size": "auto",
-            "eyebrow": "PRE-ORDER GIFT"
-          },
-          "variant": "eyebrow-rule",
-          "column": 0
-        },
-        {
-          "id": "blk_bk4wp838p7",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "A companion for your first reading. Power With asks a great deal of its reader. The Orientation helps you take it in and keep it close."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 0
-        },
-        {
-          "id": "blk_p5td8vxrjx",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "INSIDE THE ORIENTATION",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The framework on one page. Power, power over and power with."
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The ten principles at a glance, with the practice from each."
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "How to read the book. Straight through once, then back to the principles one at a time."
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The five measures of success, set as a reflection to return to."
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The pause, the single practice beneath all ten."
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "column": 0
+            "body": "A companion for your first reading. Power With asks a great deal of its reader. The Orientation helps you take it in and keep it close.",
+            "headline": "Pre-order and receive the Orientation.",
+            "items": [
+              {
+                "text": "The framework on one page. Power, power over and power with."
+              },
+              {
+                "text": "The ten principles at a glance, with the practice from each."
+              },
+              {
+                "text": "How to read the book. Straight through once, then back to the principles one at a time."
+              },
+              {
+                "text": "The five measures of success, set as a reflection to return to."
+              },
+              {
+                "text": "The pause, the single practice beneath all ten."
+              }
+            ],
+            "kicker": "PRE-ORDER GIFT",
+            "listLabel": "INSIDE THE ORIENTATION"
+          }
         },
         {
           "id": "blk_mxmj4xcfd5",
           "type": "text",
           "v": 1,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -432,13 +290,13 @@
                 }
               ]
             }
-          },
-          "column": 1
+          }
         },
         {
           "id": "blk_eyayps9eer",
           "type": "form",
           "v": 1,
+          "column": 1,
           "fields": {
             "form": {
               "id": "frm_bnbqx6543v",
@@ -479,121 +337,15 @@
               },
               "notifyOwner": true
             }
-          },
-          "column": 1
-        }
-      ],
-      "anchor": "claim"
-    },
-    {
-      "id": "sec_7gavjzc47h",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_9zbdjzcqx2",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "GIVE THIS BOOK",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "For the leader in your life.",
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Give them the book, and keep a copy for yourself."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "FOR TEAMS",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Copies for your leadership team.",
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Orders of ten or more receive tier pricing and a reading guide. [Tier pricing to set.]"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "link": {
-                  "type": "page",
-                  "page": "pg_eq7h19rjgt",
-                  "anchor": "contact"
-                },
-                "linkLabel": "ORDER IN BULK"
-              }
-            ],
-            "columns": "2",
-            "aspect": "4:5"
-          },
-          "style": {
-            "typography": {
-              "heading": "eyebrow"
-            }
           }
         }
-      ],
-      "anchor": "gift-and-bulk"
+      ]
     },
     {
-      "id": "sec_q8k17253ae",
-      "preset": "component/imported-preorder-5@1",
-      "label": "When will my copy arrive? (as on the original)",
+      "id": "sec_j7mnrdvn4t",
+      "preset": "component/pw-links@1",
+      "label": "Two link blocks (Press and Essays)",
+      "anchor": "gift-and-bulk",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -601,34 +353,107 @@
             12
           ]
         },
-        "width": "wide"
+        "width": "full"
       },
       "style": {
         "colorTheme": "dark",
-        "background": {
-          "type": "color",
-          "color": "#0F0E0C"
+        "padding": {
+          "d": "none",
+          "m": "none"
         }
       },
       "blocks": [
         {
-          "id": "blk_mpckpqad7s",
-          "type": "component/imported-preorder-5",
+          "id": "blk_tawgc0pxzs",
+          "type": "component/pw-links",
           "v": 1,
           "fields": {
-            "text1": "QUESTIONS",
-            "text2": "When will my copy arrive?",
-            "text3": "Which formats include the Orientation?",
-            "text4": "Is there an audiobook?",
-            "text5": "Pre-orders ship on publication day in January 2027. [Exact date to confirm.]",
-            "text6": "Yes. An audiobook is planned, and readers on the list will hear first.",
-            "text7": "Every pre-order, in any format, from any retailer.",
-            "text8": "Can my company order in bulk?",
-            "text9": "Yes. Orders of ten or more receive tier pricing and a reading guide."
+            "blocks": [
+              {
+                "body": "Give them the book, and keep a copy for yourself.",
+                "buttons": [
+                  {
+                    "label": "SEND A COPY",
+                    "link": {
+                      "anchor": "formats",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    }
+                  }
+                ],
+                "headline": "For the leader in your life.",
+                "label": "GIVE THIS BOOK"
+              },
+              {
+                "body": "Orders of ten or more receive tier pricing and a reading guide. [Tier pricing to set.]",
+                "buttons": [
+                  {
+                    "label": "ORDER IN BULK",
+                    "link": {
+                      "anchor": "contact",
+                      "page": "pg_eq7h19rjgt",
+                      "type": "page"
+                    }
+                  }
+                ],
+                "headline": "Copies for your leadership team.",
+                "label": "FOR TEAMS"
+              }
+            ],
+            "ground": "obsidian"
           }
         }
-      ],
-      "anchor": "questions"
+      ]
+    },
+    {
+      "id": "sec_fjqc54h14k",
+      "preset": "component/pw-faq@1",
+      "label": "Questions grid",
+      "anchor": "questions",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_tb5155j0rc",
+          "type": "component/pw-faq",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "answer": "Pre-orders ship on publication day in January 2027. [Exact date to confirm.]",
+                "question": "When will my copy arrive?"
+              },
+              {
+                "answer": "Every pre-order, in any format, from any retailer.",
+                "question": "Which formats include the Orientation?"
+              },
+              {
+                "answer": "Yes. An audiobook is planned, and readers on the list will hear first.",
+                "question": "Is there an audiobook?"
+              },
+              {
+                "answer": "Yes. Orders of ten or more receive tier pricing and a reading guide.",
+                "question": "Can my company order in bulk?"
+              }
+            ],
+            "kicker": "QUESTIONS"
+          }
+        }
+      ]
     }
   ]
 }

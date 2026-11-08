@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "brief": {
+    "about": "Marketing site for the book Power With: The Relational Foundation of Lasting Influence by Sophia Life. Its single job is to collect email opt-ins for the free Introduction. A separate sales page handles pre-orders.",
+    "audience": "High-achieving leaders, executives and founders who struggle relationally despite professional success, and the people who love them.",
+    "feeling": [
+      "austere",
+      "literary",
+      "grounded"
+    ],
+    "notes": "Source of truth is Sophia's handoff package (README, 01_BUILD_BRIEF, 02_EDITING_REQUIREMENTS, 03_DESIGN_SYSTEM, design-tokens.json, 04_CONTENT, 05_WIREFRAME). Approved copy is used verbatim. Bracketed text is placeholder Sophia has not supplied and stays visible in staging. Work attributed to Benjamin Life (@omniharmonic)."
+  },
+  "brand": {
+    "name": "Power With",
+    "voice": "Short declarative sentences. Plain, warm, precise. No em or en dashes as punctuation, no contractions, no exclamation marks, no contrast-negation constructions.",
+    "guidelines": "Ochre is removed from the brand; Clay (#8E4A30) replaces every former Ochre use. Ten principles, never eleven. Trust icon is two linked rings. The official mark is the hairline two-circle sigil. The wordmark POWER WITH is always Montserrat Regular, caps, widely tracked, never a serif."
+  },
+  "tokens": {
+    "colors": {
+      "bone": {
+        "value": "#ede6d8",
+        "role": "background"
+      },
+      "clay": {
+        "value": "#8e4a30",
+        "role": "brand"
+      },
+      "obsidian": {
+        "value": "#0f0e0c",
+        "role": "text"
+      },
+      "olive": {
+        "value": "#3c402f"
+      },
+      "oxblood": {
+        "value": "#4a1c18"
+      },
+      "stone": {
+        "value": "#c2b8a6"
+      },
+      "umber": {
+        "value": "#3a3531"
+      }
+    },
+    "fonts": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "stack": "'Cormorant Garamond', Georgia, serif",
+        "category": "serif"
+      },
+      "body": {
+        "family": "EB Garamond",
+        "stack": "'EB Garamond', Georgia, serif",
+        "category": "serif"
+      },
+      "label": {
+        "family": "Montserrat",
+        "stack": "Montserrat, Helvetica, Arial, sans-serif",
+        "category": "sans-serif"
+      }
+    },
+    "space": {
+      "contentWidth": 1200,
+      "narrowWidth": 1000,
+      "sectionPadding": 112,
+      "sectionPaddingMobile": 56,
+      "gutter": 32,
+      "gutterMobile": 20
+    },
+    "radius": {
+      "base": 0
+    }
+  },
+  "rules": [
+    "Six grounds only: Obsidian, Bone, Umber, Oxblood, Clay, Olive. Text, label, rule and button colors follow the approved pairing for the ground.",
+    "Obsidian ground: text Bone, labels Stone, rules Clay, primary button Clay with Bone text.",
+    "Bone ground: text Obsidian, labels Umber, rules Clay, primary button Obsidian with Bone text.",
+    "Umber, Oxblood and Olive grounds: text Bone, labels Stone, rules Stone, primary button Bone with Obsidian text.",
+    "Clay ground: text, labels and rules Bone, primary button Obsidian with Bone text. Inputs are Bone with Obsidian text and an Obsidian border.",
+    "Never set text in Clay on Obsidian (about 2.9:1). Clay on dark grounds is for buttons with Bone text, 2px rules and marks only.",
+    "Display type is Cormorant Garamond Medium 500, italic for closing lines and quotes, one italic line per section at most. Body is EB Garamond 400. Labels, buttons, navigation and the wordmark are Montserrat caps.",
+    "Never bold the serif. Weight comes from size. Sentence case for serif text; caps only in Montserrat.",
+    "Square corners everywhere. No gradients, no drop shadows except the soft shadow on the book cover (0 30px 60px rgba(0,0,0,0.55)). No stock imagery, no emoji.",
+    "Short accent rule above most headlines: 64px by 2px on desktop, 48px by 2px on mobile, 28px above and 32px below.",
+    "Content max width 1200px, narrow sections 760 to 1000px, 32px gutter on desktop and 20px on mobile, 112px section padding on desktop.",
+    "Motion is limited to a gentle fade under 300ms and is disabled under prefers-reduced-motion.",
+    "Meet WCAG 2.2 AA. Touch targets at least 44px. Visible focus states."
+  ],
+  "components": {
+    "pw-author": {
+      "purpose": "Author block with portrait placeholder, paragraphs, names and buttons."
+    },
+    "pw-author-short": {
+      "purpose": "Small portrait with label and one paragraph."
+    },
+    "pw-benefits": {
+      "purpose": "Benefits section: headline, quote, two columns, ruled list and closing line."
+    },
+    "pw-cards": {
+      "purpose": "Card grids for Framework terms, Authority columns and Organizations."
+    },
+    "pw-claim-text": {
+      "purpose": "Text half of the Clay pre-order gift section, beside the claim form."
+    },
+    "pw-cta-head": {
+      "purpose": "Closing call-to-action head: optional sigil, headline or italic line, body, form label."
+    },
+    "pw-endorsements": {
+      "purpose": "Praise strip or grid. Built, hidden until real endorsements exist."
+    },
+    "pw-faq": {
+      "purpose": "Questions grid with answers visible."
+    },
+    "pw-hero-text": {
+      "purpose": "Home hero text: kicker, 96px title, italic subtitle, lead, body, form label caption."
+    },
+    "pw-landing-hero": {
+      "purpose": "Landing page hero text beside the opt-in card."
+    },
+    "pw-links": {
+      "purpose": "Hairline-topped link blocks with outline buttons (Press, Essays, Gift, Teams)."
+    },
+    "pw-measures": {
+      "purpose": "Numbered measures of success."
+    },
+    "pw-offer": {
+      "purpose": "Clay offer card with label, large sentence and button (Thank-you page)."
+    },
+    "pw-principles": {
+      "purpose": "Ten principles grid with sketch icons (to be replaced by brand-kit icons)."
+    },
+    "pw-quote": {
+      "purpose": "Full-width quote band on any of the six grounds."
+    },
+    "pw-sales-hero": {
+      "purpose": "Pre-order hero: cover, headline, text, formats with prices and retailer buttons."
+    },
+    "pw-statement": {
+      "purpose": "Large statement section (The Pattern)."
+    },
+    "pw-sticky-bar": {
+      "purpose": "Phone-only fixed bar linking to the Introduction opt-in."
+    }
+  },
+  "sources": [
+    {
+      "kind": "tokens",
+      "format": "dtcg",
+      "at": "2026-11-08T03:58:16.609Z"
+    }
+  ],
+  "updatedAt": "2026-11-08T04:24:18.827Z"
+}

@@ -1,0 +1,193 @@
+{
+  "name": "pw-author",
+  "label": "Author block",
+  "description": "Portrait beside label, rule, name, paragraphs, a names list and outline buttons. Shows a placeholder panel until a portrait is uploaded.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "buttons": {
+      "kind": "list",
+      "label": "Buttons",
+      "fields": {
+        "label": {
+          "kind": "text",
+          "label": "Button text",
+          "maxLength": 40
+        },
+        "link": {
+          "kind": "link",
+          "label": "Where it goes"
+        }
+      },
+      "min": 0,
+      "max": 3,
+      "itemLabel": "label"
+    },
+    "ground": {
+      "kind": "select",
+      "label": "Section background",
+      "options": [
+        {
+          "value": "obsidian",
+          "label": "Obsidian (near black)"
+        },
+        {
+          "value": "bone",
+          "label": "Bone (light)"
+        },
+        {
+          "value": "umber",
+          "label": "Umber (warm charcoal)"
+        },
+        {
+          "value": "oxblood",
+          "label": "Oxblood (deep red)"
+        },
+        {
+          "value": "clay",
+          "label": "Clay (accent)"
+        },
+        {
+          "value": "olive",
+          "label": "Olive (deep green)"
+        }
+      ],
+      "display": "dropdown"
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label above the name",
+      "optional": true,
+      "maxLength": 60
+    },
+    "name": {
+      "kind": "text",
+      "label": "Name",
+      "maxLength": 80
+    },
+    "names": {
+      "kind": "list",
+      "label": "Names",
+      "fields": {
+        "name": {
+          "kind": "text",
+          "label": "Name",
+          "maxLength": 60
+        }
+      },
+      "min": 0,
+      "max": 16,
+      "itemLabel": "name"
+    },
+    "namesLabel": {
+      "kind": "text",
+      "label": "Label above the names",
+      "optional": true,
+      "maxLength": 60
+    },
+    "paragraphs": {
+      "kind": "list",
+      "label": "Paragraphs",
+      "fields": {
+        "text": {
+          "kind": "text",
+          "label": "Paragraph",
+          "maxLength": 620,
+          "multiline": true
+        }
+      },
+      "min": 1,
+      "max": 6,
+      "itemLabel": "text"
+    },
+    "placeholder": {
+      "kind": "text",
+      "label": "Placeholder text (shown until a portrait is added)",
+      "optional": true,
+      "maxLength": 80
+    },
+    "portrait": {
+      "kind": "image",
+      "label": "Portrait",
+      "optional": true
+    }
+  },
+  "defaults": {
+    "buttons": [
+      {
+        "label": "INVITE SOPHIA TO SPEAK",
+        "link": {
+          "anchor": "contact",
+          "page": "pg_eq7h19rjgt",
+          "type": "page"
+        }
+      },
+      {
+        "label": "READ HER ESSAYS",
+        "link": {
+          "anchor": "essays",
+          "page": "pg_eq7h19rjgt",
+          "type": "page"
+        }
+      }
+    ],
+    "ground": "bone",
+    "kicker": "THE AUTHOR",
+    "name": "Sophia Life",
+    "names": [
+      {
+        "name": "Carol Gilligan"
+      },
+      {
+        "name": "Martin Buber"
+      },
+      {
+        "name": "Jessica Benjamin"
+      },
+      {
+        "name": "Terry Real"
+      },
+      {
+        "name": "Otto Kernberg"
+      },
+      {
+        "name": "Heinz Kohut"
+      },
+      {
+        "name": "Donald Winnicott"
+      },
+      {
+        "name": "Joseph Burgo"
+      },
+      {
+        "name": "Daniel Schmachtenberger"
+      }
+    ],
+    "namesLabel": "THE THINKING BEHIND THE BOOK",
+    "paragraphs": [
+      {
+        "text": "Sophia Life writes from the field. For more than a decade she has studied the patterns in this book up close and practiced the principles that change them."
+      },
+      {
+        "text": "She paired that practice with years of study across depth psychology, attachment theory, developmental psychology, neuroscience, systems thinking, leadership theory and relational philosophy. The result is a synthesis written for the person living inside these patterns, and for the person who loves them."
+      },
+      {
+        "text": "Sophia is a coach and organizational consultant with a background in urban planning and product development. She writes The Quality of Life on Substack and lives in Boulder, Colorado. [Years in practice, notable clients and speaking credits.]"
+      }
+    ],
+    "placeholder": "[PORTRAIT FROM THE RECENT SHOOT]"
+  },
+  "template": "<div class=\"pw\" data-ground=\"{{ground}}\"><div class=\"pw__in\">{{#if portrait}}<div class=\"pw__pic\">{{image portrait sizes=\"(max-width:767px) 100vw, 480px\"}}</div>{{else}}<div class=\"pw__pic pw__ph\" role=\"img\" aria-label=\"Author portrait placeholder\">{{placeholder}}</div>{{/if}}<div class=\"pw__tx\">{{#if kicker}}<p class=\"pw__kicker\">{{kicker}}</p>{{/if}}<div class=\"pw__rule\"></div><h2 class=\"pw__h2\">{{name}}</h2><div class=\"pw__ps\">{{#each paragraphs}}<p>{{text}}</p>{{/each}}</div>{{#if names}}{{#if namesLabel}}<p class=\"pw__nl\">{{namesLabel}}</p>{{/if}}<p class=\"pw__names\">{{#each names}}<span>{{name}}</span>{{/each}}</p>{{/if}}{{#if buttons}}<div class=\"pw__btns\">{{#each buttons}}<a class=\"pw__btn\" href=\"{{href link}}\">{{label}}</a>{{/each}}</div>{{/if}}</div></div></div>",
+  "css": ":scope{display:block;width:100%}.pw{--bg:#0F0E0C;--tx:#EDE6D8;--lb:#C2B8A6;--rl:#8E4A30;--ol:#C2B8A6;background:var(--bg);color:var(--tx);font-family:var(--os-font-body);font-weight:400}.pw[data-ground=\"bone\"]{--bg:#EDE6D8;--tx:#0F0E0C;--lb:#3A3531;--rl:#8E4A30;--ol:#0F0E0C}.pw[data-ground=\"umber\"]{--bg:#3A3531;--rl:#C2B8A6}.pw[data-ground=\"oxblood\"]{--bg:#4A1C18;--rl:#C2B8A6}.pw[data-ground=\"clay\"]{--bg:#8E4A30;--lb:#EDE6D8;--rl:#EDE6D8;--ol:#EDE6D8}.pw[data-ground=\"olive\"]{--bg:#3C402F;--rl:#C2B8A6}\n.pw__in{box-sizing:content-box;max-width:1200px;margin:0 auto;padding:112px 32px;display:flex;flex-wrap:wrap;gap:64px;align-items:flex-start}\n.pw__pic{flex:1 1 360px;min-width:0;height:500px;overflow:hidden;line-height:0}.pw__pic img{display:block;width:100%;height:100%;object-fit:cover}\n.pw__ph{background:#C2B8A6;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--os-font-label);font-size:12px;letter-spacing:.24em;color:#3A3531;line-height:normal}\n.pw__tx{flex:999 1 460px;min-width:0}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--lb)}\n.pw__rule{width:64px;height:2px;background:var(--rl);margin:28px 0 32px}\n.pw__tx>.pw__rule:first-child{margin-top:0}\n.pw__h2{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:60px;line-height:1.05;color:var(--tx)}\n.pw__ps p{margin:18px 0 0;font-size:21px;line-height:1.55}.pw__ps p:first-child{margin-top:24px}\n.pw__nl{margin:36px 0 0;font-family:var(--os-font-label);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--lb)}\n.pw__names{margin:12px 0 0;font-size:19px;line-height:1.6;color:var(--lb)}\n.pw__names span+span::before{content:\"\\00b7\";margin:0 .5em}\n.pw__btns{display:flex;flex-wrap:wrap;gap:16px;margin-top:36px}\n.pw__btn{display:inline-block;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;line-height:normal;color:var(--tx);border:1px solid var(--ol);padding:16px 24px}\n.pw__btn:focus-visible{outline:2px solid var(--tx);outline-offset:3px}\n@media (max-width:767px){.pw__in{padding:56px 20px;gap:36px}.pw__pic{flex-basis:100%;height:420px}.pw__tx{flex-basis:100%}.pw__rule{width:48px;margin:24px 0}.pw__h2{font-size:44px}.pw__ps p{font-size:19px}.pw__nl{font-size:11px}.pw__names{font-size:18px}.pw__btns{flex-direction:column}.pw__btn{text-align:center}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Author block with portrait, bio paragraphs, influences and buttons.",
+    "whenToUse": "Author or founder sections."
+  }
+}

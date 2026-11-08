@@ -1,0 +1,86 @@
+{
+  "name": "pw-quote",
+  "label": "Quote band",
+  "description": "Centred or left large quote with a small attribution. Choose the ground.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "align": {
+      "kind": "select",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "center",
+          "label": "Centre"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        }
+      ],
+      "display": "segmented"
+    },
+    "attribution": {
+      "kind": "text",
+      "label": "Attribution",
+      "optional": true,
+      "maxLength": 60
+    },
+    "ground": {
+      "kind": "select",
+      "label": "Section background",
+      "options": [
+        {
+          "value": "obsidian",
+          "label": "Obsidian (near black)"
+        },
+        {
+          "value": "bone",
+          "label": "Bone (light)"
+        },
+        {
+          "value": "umber",
+          "label": "Umber (warm charcoal)"
+        },
+        {
+          "value": "oxblood",
+          "label": "Oxblood (deep red)"
+        },
+        {
+          "value": "clay",
+          "label": "Clay (accent)"
+        },
+        {
+          "value": "olive",
+          "label": "Olive (deep green)"
+        }
+      ],
+      "display": "dropdown"
+    },
+    "quote": {
+      "kind": "text",
+      "label": "Quote",
+      "maxLength": 240,
+      "multiline": true
+    }
+  },
+  "defaults": {
+    "align": "center",
+    "attribution": "FROM POWER WITH",
+    "ground": "oxblood",
+    "quote": "What looks like confidence is often defense with good posture."
+  },
+  "template": "<div class=\"pw\" data-ground=\"{{ground}}\" data-align=\"{{align}}\"><div class=\"pw__in\"><p class=\"pw__q\">{{quote}}</p>{{#if attribution}}<p class=\"pw__by\">{{attribution}}</p>{{/if}}</div></div>",
+  "css": ":scope{display:block;width:100%}.pw{--bg:#0F0E0C;--tx:#EDE6D8;--lb:#C2B8A6;background:var(--bg);color:var(--tx);font-family:var(--os-font-body)}.pw[data-ground=\"bone\"]{--bg:#EDE6D8;--tx:#0F0E0C;--lb:#3A3531}.pw[data-ground=\"umber\"]{--bg:#3A3531}.pw[data-ground=\"oxblood\"]{--bg:#4A1C18}.pw[data-ground=\"clay\"]{--bg:#8E4A30;--lb:#EDE6D8}.pw[data-ground=\"olive\"]{--bg:#3C402F}\n.pw__in{box-sizing:content-box;max-width:900px;margin:0 auto;padding:96px 32px}\n.pw[data-align=\"center\"] .pw__in{text-align:center}\n.pw__q{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:52px;line-height:1.12;text-wrap:balance}\n.pw__by{margin:28px 0 0;font-family:var(--os-font-label);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--lb)}\n@media (max-width:767px){.pw__in{padding:56px 20px}.pw__q{font-size:34px}.pw__by{margin-top:20px;font-size:11px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Large quote band.",
+    "whenToUse": "A single pull quote between sections."
+  }
+}

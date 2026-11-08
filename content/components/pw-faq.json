@@ -1,0 +1,68 @@
+{
+  "name": "pw-faq",
+  "label": "Questions grid",
+  "description": "A small label and rule, then questions with answers laid out in two columns.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "items": {
+      "kind": "list",
+      "label": "Questions",
+      "fields": {
+        "answer": {
+          "kind": "text",
+          "label": "Answer",
+          "maxLength": 400,
+          "multiline": true
+        },
+        "question": {
+          "kind": "text",
+          "label": "Question",
+          "maxLength": 120
+        }
+      },
+      "min": 1,
+      "max": 12,
+      "itemLabel": "question"
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label",
+      "maxLength": 60
+    }
+  },
+  "defaults": {
+    "items": [
+      {
+        "answer": "Pre-orders ship on publication day in January 2027. [Exact date to confirm.]",
+        "question": "When will my copy arrive?"
+      },
+      {
+        "answer": "Every pre-order, in any format, from any retailer.",
+        "question": "Which formats include the Orientation?"
+      },
+      {
+        "answer": "Yes. An audiobook is planned, and readers on the list will hear first.",
+        "question": "Is there an audiobook?"
+      },
+      {
+        "answer": "Yes. Orders of ten or more receive tier pricing and a reading guide.",
+        "question": "Can my company order in bulk?"
+      }
+    ],
+    "kicker": "QUESTIONS"
+  },
+  "template": "<div class=\"pw\"><div class=\"pw__in\"><p class=\"pw__kicker\">{{kicker}}</p><div class=\"pw__rule\"></div><div class=\"pw__grid\">{{#each items}}<div class=\"pw__q\"><h3 class=\"pw__qh\">{{question}}</h3><p class=\"pw__qa\">{{answer}}</p></div>{{/each}}</div></div></div>",
+  "css": ":scope{display:block;width:100%}.pw{background:#0F0E0C;color:#EDE6D8;font-family:var(--os-font-body)}\n.pw__in{box-sizing:content-box;max-width:1200px;margin:0 auto;padding:24px 32px 96px}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#C2B8A6}\n.pw__rule{width:64px;height:2px;background:#8E4A30;margin:28px 0 40px}\n.pw__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:40px 56px}\n.pw__qh{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:28px;line-height:1.2;color:#EDE6D8}\n.pw__qa{margin:10px 0 0;font-size:19px;line-height:1.5;color:#C2B8A6}\n@media (max-width:767px){.pw__in{padding:16px 20px 56px}.pw__grid{grid-template-columns:1fr;gap:32px}.pw__qh{font-size:24px}.pw__kicker{font-size:11px}.pw__rule{margin:20px 0 28px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "FAQ grid.",
+    "whenToUse": "Sales pages."
+  }
+}

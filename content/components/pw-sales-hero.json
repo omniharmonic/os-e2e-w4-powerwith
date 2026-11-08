@@ -1,0 +1,163 @@
+{
+  "name": "pw-sales-hero",
+  "label": "Pre-order hero",
+  "description": "Book cover beside kicker, headline, text and a list of formats, each with its price and retailer buttons.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "body": {
+      "kind": "text",
+      "label": "Text",
+      "maxLength": 400,
+      "multiline": true
+    },
+    "cover": {
+      "kind": "image",
+      "label": "Book cover",
+      "optional": true
+    },
+    "formats": {
+      "kind": "list",
+      "label": "Formats",
+      "fields": {
+        "buttons": {
+          "kind": "list",
+          "label": "Retailer buttons",
+          "fields": {
+            "label": {
+              "kind": "text",
+              "label": "Button text",
+              "maxLength": 40
+            },
+            "link": {
+              "kind": "link",
+              "label": "Where it goes"
+            },
+            "primary": {
+              "kind": "boolean",
+              "label": "Filled (main) button"
+            }
+          },
+          "min": 0,
+          "max": 5,
+          "itemLabel": "label"
+        },
+        "name": {
+          "kind": "text",
+          "label": "Format",
+          "maxLength": 40
+        },
+        "note": {
+          "kind": "text",
+          "label": "Note",
+          "optional": true,
+          "maxLength": 200
+        },
+        "price": {
+          "kind": "text",
+          "label": "Price or status",
+          "optional": true,
+          "maxLength": 40
+        }
+      },
+      "min": 1,
+      "max": 5,
+      "itemLabel": "name"
+    },
+    "headline": {
+      "kind": "text",
+      "label": "Headline",
+      "maxLength": 120
+    },
+    "kicker": {
+      "kind": "text",
+      "label": "Small label",
+      "maxLength": 80
+    }
+  },
+  "defaults": {
+    "body": "Reserve your copy of Power With and receive the Orientation, a companion for your first reading. Every pre-order counts toward launch week.",
+    "formats": [
+      {
+        "buttons": [
+          {
+            "label": "AMAZON",
+            "link": {
+              "anchor": "claim",
+              "page": "pg_pccta3f6fk",
+              "type": "page"
+            },
+            "primary": true
+          },
+          {
+            "label": "BARNES & NOBLE",
+            "link": {
+              "anchor": "claim",
+              "page": "pg_pccta3f6fk",
+              "type": "page"
+            },
+            "primary": false
+          },
+          {
+            "label": "BOOKSHOP.ORG",
+            "link": {
+              "anchor": "claim",
+              "page": "pg_pccta3f6fk",
+              "type": "page"
+            },
+            "primary": false
+          },
+          {
+            "label": "YOUR LOCAL BOOKSTORE",
+            "link": {
+              "anchor": "claim",
+              "page": "pg_pccta3f6fk",
+              "type": "page"
+            },
+            "primary": false
+          }
+        ],
+        "name": "PAPERBACK",
+        "note": "",
+        "price": "$21.95 [TO CONFIRM]"
+      },
+      {
+        "buttons": [
+          {
+            "label": "AMAZON KINDLE",
+            "link": {
+              "anchor": "claim",
+              "page": "pg_pccta3f6fk",
+              "type": "page"
+            },
+            "primary": false
+          }
+        ],
+        "name": "KINDLE",
+        "note": "",
+        "price": "[PRICE]"
+      },
+      {
+        "buttons": [],
+        "name": "AUDIOBOOK",
+        "note": "An audiobook is planned. Readers on the list hear first.",
+        "price": "COMING"
+      }
+    ],
+    "headline": "Power and closeness, held together.",
+    "kicker": "PRE-ORDER · PUBLISHING JANUARY 2027"
+  },
+  "template": "<div class=\"pw\"><div class=\"pw__in\"><div class=\"pw__cv\">{{#if cover}}<div class=\"pw__img\">{{image cover sizes=\"300px\"}}</div>{{else}}<div class=\"pw__ph\" role=\"img\" aria-label=\"Book cover placeholder\"><span class=\"pw__phw\">POWER WITH</span><span class=\"pw__phs\">SOPHIA LIFE</span></div>{{/if}}</div><div class=\"pw__tx\"><p class=\"pw__kicker\">{{kicker}}</p><div class=\"pw__rule\"></div><h1 class=\"pw__h\">{{headline}}</h1><p class=\"pw__lead\">{{body}}</p>{{#each formats}}<div class=\"pw__fmt\"><div class=\"pw__row\"><h2 class=\"pw__fn\">{{name}}</h2>{{#if price}}<span class=\"pw__fp\">{{price}}</span>{{/if}}</div>{{#if buttons}}<div class=\"pw__btns\">{{#each buttons}}{{#if primary}}<a class=\"pw__btn pw__btn--p\" href=\"{{href link}}\">{{label}}</a>{{else}}<a class=\"pw__btn\" href=\"{{href link}}\">{{label}}</a>{{/if}}{{/each}}</div>{{/if}}{{#if note}}<p class=\"pw__note\">{{note}}</p>{{/if}}</div>{{/each}}</div></div></div>",
+  "css": ":scope{display:block;width:100%}.pw{background:#0F0E0C;color:#EDE6D8;font-family:var(--os-font-body)}\n.pw__in{box-sizing:content-box;max-width:1200px;margin:0 auto;padding:88px 32px 96px;display:flex;flex-wrap:wrap;gap:72px;align-items:flex-start}\n.pw__cv{flex:1 1 300px;display:flex;justify-content:center}\n.pw__img{width:300px;max-width:100%;line-height:0;box-shadow:0 30px 60px rgba(0,0,0,.55)}.pw__img img{display:block;width:100%;height:auto}\n.pw__ph{width:300px;height:450px;max-width:100%;box-sizing:border-box;border:1px solid #3A3531;box-shadow:0 30px 60px rgba(0,0,0,.55);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:64px 20px 36px}\n.pw__phw{font-family:var(--os-font-label);font-size:22px;letter-spacing:.32em}.pw__phs{font-family:var(--os-font-label);font-size:10px;letter-spacing:.3em;color:#C2B8A6}\n.pw__tx{flex:999 1 520px;min-width:0}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#C2B8A6}\n.pw__rule{width:64px;height:2px;background:#8E4A30;margin:28px 0 32px}\n.pw__h{margin:0;font-family:var(--os-font-heading);font-weight:500;font-size:72px;line-height:1.02}\n.pw__lead{margin:24px 0 0;font-size:21px;line-height:1.5;max-width:32em}\n.pw__fmt{margin-top:32px;border-top:1px solid #3A3531;padding-top:28px}.pw__lead+.pw__fmt{margin-top:48px}\n.pw__row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px}\n.pw__fn{margin:0;font-family:var(--os-font-label);font-weight:400;font-size:14px;letter-spacing:.3em;text-transform:uppercase;color:#EDE6D8}\n.pw__fp{font-family:var(--os-font-label);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:#C2B8A6}\n.pw__btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}\n.pw__btn{display:inline-block;font-family:var(--os-font-label);font-weight:400;font-size:12px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;line-height:normal;color:#EDE6D8;border:1px solid #C2B8A6;padding:15px 21px}\n.pw__btn--p{background:#8E4A30;border-color:#8E4A30;padding:16px 22px}\n.pw__btn:focus-visible{outline:2px solid #EDE6D8;outline-offset:3px}\n.pw__note{margin:14px 0 0;font-size:19px;line-height:1.5;color:#C2B8A6}\n@media (max-width:767px){.pw__in{padding:48px 20px 56px;gap:40px}.pw__h{font-size:44px}.pw__lead{font-size:19px}.pw__kicker{font-size:11px}.pw__rule{margin:20px 0 24px}.pw__btns{flex-direction:column}.pw__btn{text-align:center}.pw__tx{flex-basis:100%}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Pre-order sales hero with formats.",
+    "whenToUse": "Sales / pre-order page."
+  }
+}
